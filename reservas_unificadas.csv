@@ -1,0 +1,189 @@
+nombre,municipio,tipo,superficie_ha,categoria,Horarios_de_visita,Costo_de_ingreso,Fuente
+Puerto de Mar del Plata,GENERAL PUEYRREDON,"Reserva Natural Provincial de Objetivos Definidos Mixtos Botánico, Faunístico y Educativo.",87.0,reserva-natural-objetivo-definido,Todos los días 10:00–18:00,Gratuito,Ministerio de Ambiente PBA
+Laguna de los Padres,GENERAL PUEYRREDON,Reserva municipal de objetivo definido educativo,665.0,reserva-natural-objetivo-definido,Todos los días 08:00–20:00,Gratuito,MGP / La Capital MdP
+Bahia de  Samborombón (Sitio RAMSAR),MAGDALENA-PUNTA INDIO-CHASCOMÚS-CASTELLI-DOLORES-TORDILLO-GENERAL LAVALLE Y LA COSTA,Reserva natural de objetivos definidos,18840.0,reserva-natural-objetivo-definido,No abierta al público (área natural amplia sin horario),No corresponde,OPDS – Listado oficial
+Rincón de Ajó,"TORDILLO,GENERAL LAVALLE Y LA COSTA",Reserva natural de objetivos definidos,12590.0,reserva-natural-objetivo-definido,No abierta al público (reserva estricta sin visitas),No corresponde,Min. Ambiente PBA
+Laguna Chasicó,VILLARINO - PUAN,Reserva Natural Provincial de Objetivos Definidos Mixtos,7800.0,reserva-natural-objetivo-definido,No abierta al público (acceso libre para pesca deportiva),Gratuito (con licencia de pesca),OPDS – Listado oficial
+Otamendi,CAMPANA,"Sitio Ramsar. Reserva natural estricta, reserva natural silvestre y reserva natural educativa",3000.0,reserva-natural-objetivo-definido,Todos los días 09:00–18:00 (ingreso diurno),Gratuito,La Nación
+Parque nacional Campos del Tuyú,GENERAL LAVALLE,Reserva  natural estricta,3040.0,reserva-natural-objetivo-definido,No abierta al público aún,No corresponde,Argentina.gob.ar
+Costera Bahia Blanca,BAHIA BLANCA,Reserva municipal de objetivo educativo,319.0,reserva-natural-objetivo-definido,Sin horarios fijos (visitas guiadas ocasionales),Gratuito,Aves Argentinas (consulta turismo)
+Paraná Guazú,BARADERO,Reserva natural  de objetivo educativo/ reserva municipal,,reserva-natural-objetivo-definido,No abierta al público (islas del delta sin acceso turístico),No corresponde,OPDS – Listado oficial
+Guardia del Juncal,CAÑUELAS,Reserva natural municipal de objetivo educativo,129.0,reserva-natural-objetivo-definido,No abierta al público (reserva educativa cerrada),No corresponde,–
+Pehuencó- Monte Hermoso,CNEL ROSALES Y MONTE HERMOSO,"Reserva natural arqueológica, geológica, paleontológica y de objetivo definido",2542.0,reserva-natural-objetivo-definido,"Visitas solo con guía especializada, según mareas (coordinar con Museo en Monte Hermoso)",ARS 4.000 adultos / ARS 3.000 menores (visita guiada),Municipio de Monte Hermoso; Infocielo
+Ingeniero Maschwitz,ESCOBAR,Reserva Natural Educativa,23.0,reserva-natural-objetivo-definido,Miércoles a domingos 09:00–17:00 (cerrado lluvia),Gratuito,Reserva Maschwitz (Escobar)
+Restringa del Faro,GENERAL PUEYRREDON,Reserva natural de objetivo geológico y faunístico,706.0,reserva-natural-objetivo-definido,"Sin horarios (acceso libre a la costa, sin servicios)",Gratuito,–
+Costanera sur,GENERAL PUEYRREDÓN,Reserva turística y  forestal,800.0,reserva-natural-objetivo-definido,,,
+Laguna de San Vicente,SAN VICENTE,Reserva Natural y Faunística Municipal,132.0,reserva-natural-objetivo-definido,Sin datos (posiblemente abierta días festivos locales),Gratuito,–
+Sierra del Tigre,TANDIL,Reserva Natural d la Flora y Fauna y Reserva natural integral,142.0,reserva-natural-objetivo-definido,Invierno 09:30–17:30; Verano 09:00–19:00 (cerrado lluvias),ARS 5.000 por persona (menores 10 años gratis),Reserva Sierra del Tigre
+Dr. Carlos Spegazzini,LOMAS DE ZAMORA,Reserva botánica micológica,60.0,reserva-natural-objetivo-definido,No abierta al público (área de investigación),No corresponde,–
+Selva marginal de Hudson,BERAZATEGUI,Reserva de recursos,1200.0,reserva-natural-objetivo-definido,No abierta al público (solo investigación/educación),No corresponde,–
+nan,nan,nan,,reserva-natural-objetivo-definido,,,
+Bahias Blanca Verde y Falsa,"BAHIA BLANCA, CORONEL ROSALES Y VILLARINO",Reserva natural de uso múltiple,254354.0,reserva-natural-uso-multiple,Sin horarios fijos (acceso con autorización especial o excursión),Gratuito,Min. Ambiente PBA
+Rio Luján,CAMPANA,Reserva natural de uso múltiple,1257.0,reserva-natural-uso-multiple,"No abierta al público (zona protegida, sin uso recreativo)",No corresponde,–
+Arroyo  Los Gauchos,CORONEL DORREGO,Reserva natural de uso múltiple,770.0,reserva-natural-uso-multiple,No abierta al público,No corresponde,–
+Laguna Salada Grande,GENERAL MADARIAGA - GENERAL LAVALLE,Reserva natural de uso múltiple,5144.0,reserva-natural-uso-multiple,"Sábados, domingos y feriados 10:00–17:00",Gratuito (permiso de pesca requerido),Min. Ambiente PBA
+Isla Martín García,LA PLATA,Reserva natural de uso múltiple,190.0,reserva-natural-uso-multiple,"Servicio de lancha los martes, jueves, sábados, domingos y feriados (sale 08:30 h de Tigre, regresa ~20:00 h)",Gratuito (traslado en lancha pago),Min. Ambiente PBA
+Mar Chiquita,MAR CHIQUITA,Reserva natural de uso múltiple,9007.0,reserva-natural-uso-multiple,Todos los días 09:00–17:00,Gratuito,Min. Ambiente PBA
+Arroyo Zabala,NECOCHEA - SAN CAYETANO,Reserva natural de uso múltiple,1847.0,reserva-natural-uso-multiple,No abierta al público,No corresponde,–
+Bahia San Blas,PATAGONES,Reserva natural de uso múltiple,396748.0,reserva-natural-uso-multiple,"Sin horarios (acceso libre, actividad de pesca deportiva)",Gratuito,–
+Isla de Puan,PUAN,Reserva Natural de Uso múltile,100.0,reserva-natural-uso-multiple,Visitas mediante lanchas turísticas (según programación local),Gratuito (traslado en lancha pago),Turismo Puan (redes sociales locales)
+Isla Botija,ZÁRATE,Reserva natural de uso múltiple,681.0,reserva-natural-uso-multiple,No abierta al público,No corresponde,–
+nan,nan,nan,,reserva-natural-uso-multiple,,,
+Islote de la Gaviota Cangrejera,BAHIA BLANCA,Reserva natural integral,81.0,reserva-natural-integral,"No abierta al público (isla protegida, acceso prohibido)",No corresponde,Min. Ambiente PBA
+Punta Lara,ENSENADA-BERAZATEGUI,Reserva natural integral mixta,5579.0,reserva-natural-integral,Visitas solo con guía (turno previo por email; sin ingreso libre),Gratuito,Min. Ambiente PBA; La Otra Cara
+Laguna de Rocha,ESTABAN ECHEVERRÍA,Reserva natural integral y mixta,1400.0,reserva-natural-integral,No abierta al público (acceso solo con permiso especial),No corresponde,Ley Prov. 14.488 (creación reserva)
+Isla Laguna Alsina,GUAMINÍ,Reserva natural integral,50.0,reserva-natural-integral,No abierta al público,No corresponde,–
+Delta en formación,LA PLATA,Reserva natural integral,30841.0,reserva-natural-integral,No abierta al público,No corresponde,–
+Bahia de  Samborombón (Sitio RAMSAR),MAGDALENA-PUNTA INDIO-CHASCOMÚS-CASTELLI-DOLORES-TORDILLO-GENERAL LAVALLE Y LA COSTA,Reserva natural integral,10730.0,reserva-natural-integral,No abierta al público (área natural amplia sin horario),No corresponde,OPDS – Listado oficial
+Parque ecológico de la primera sección de islas del delta del Paraná,TIGRE,Reserva natural integral,30841.0,reserva-natural-integral,,,
+Rincón de Ajó,"TORDILLO,GENERAL LAVALLE Y LA COSTA",Reserva natural integral,3147.0,reserva-natural-integral,No abierta al público (reserva estricta sin visitas),No corresponde,Min. Ambiente PBA
+Pereyra Iraola,BERAZATEGUI,Reserva de biósfera,10248.0,reserva-de-biosfera,Abierto lun a dom 09:00–20:00,Gratuito,Meteored
+Parque Costero del Sur,MAGDALENA - PUNTA INDIO,Reserva de biósfera,23500.0,reserva-de-biosfera,Sin horarios fijos (acceso libre a senderos; visitas guiadas disponibles),Gratuito,UNESCO – RB Parque Costero Sur
+Parque Atlántico Mar Chiquito,MAR CHIQUITA,Reserva de biósfera,26488.0,reserva-de-biosfera,Todos los días 09:00–17:00 (Centro de visitantes),Gratuito,Min. Ambiente PBA
+Delta del Paraná,SAN FERNANDO,Reserva de biósfera,88624.0,reserva-de-biosfera,Sin horarios (región del delta habitada; excursiones privadas),Gratuito,UNESCO – RB Delta Paraná (cit. Instagram)
+nan,nan,nan,,reserva-de-biosfera,,,
+Barranca Norte,BARADERO,Reserva natural privada de objetivo botánico,117.0,reserva-natural-privada,No abierta al público (reserva privada sin visitas),No corresponde,Min. Ambiente PBA
+El Morejón,CAMPANA,Reserva natural privada,135.0,reserva-natural-privada,No abierta al público,No corresponde,–
+Paitití,GENERAL PUEYRREDÓN,Reserva Natural Privada,220.0,reserva-natural-privada,No abierta al público,No corresponde,–
+El Destino,MAGDALENA,Reserva Natural Privada de Objetivo Educativo y Botánico,2500.0,reserva-natural-privada,Mar–Nov: todos los días 08:00–18:00 (miércoles cerrado); Dic–Feb: todos los días 08:00–20:00,ARS 6.000 entrada por persona; camping ARS 12.000; actividades extra desde ARS 6.000,Infocielo; Sitio oficial
+Nahuel Ruca,MAR CHIQUITA,Reserva Natural Privada,390.0,reserva-natural-privada,No abierta al público (campo privado),No corresponde,–
+Arroyo Durazno,MARCOS PAZ,Reserva natural privada de objetivo educativo,514.0,reserva-natural-privada,No abierta al público,No corresponde,–
+La Amanda,PUNTA INDIO,Reserva natural privada,,reserva-natural-privada,No abierta al público,No corresponde,–
+Punta Indio,PUNTA INDIO,Reserva natural privada,700.0,reserva-natural-privada,,,
+Las Piedras,SAAVEDRA,Reserva Natural Privada,400.0,reserva-natural-privada,No abierta al público,No corresponde,–
+Santuario natural del Cauquén Colorado,SAN CAYETANO,Reserva privada,100.0,reserva-natural-privada,No abierta al público (área protegida de uso científico),No corresponde,–
+Che Roga,SAN FERNANDO,Reserva Natural Privada,100.0,reserva-natural-privada,No abierta al público,No corresponde,–
+Sendero Pampa,TANDIL,Reserva Natural Privada,6.0,reserva-natural-privada,Visitas educativas programadas (consultar universidad),Gratuito (actividades educativas),UNICEN
+Sierras Grandes,TORNQUIST,Reserva natural privada educativa y botánica,2742.0,reserva-natural-privada,No abierta al público (acceso solo con autorización),No corresponde,Min. Ambiente PBA (reg. OPDS)
+Delta Terra,TIGRE,Paisaje protegido,40.0,reserva-natural-privada,"Sábados, domingos y feriados 10:00–17:30 (abre fines de semana)",Gratuito (traslado en lancha con costo),Fundación Azara
+Achalay,TIGRE,Reserva natural,150.0,reserva-natural-privada,No abierta al público,No corresponde,–
+Laguna Epecuén,ADOLFO ALSINA,Reserva natural municipal,18000.0,reserva-municipal,"Abierto todos los días (acceso libre, ruinas al aire libre)",Gratuito,"Turismo PBA (ref. Magdalena, sim.)"
+La Saladita,AVELLANEDA,Reserva natural municipal,22.0,reserva-municipal,"Sin datos (proyecto de reserva en humedal, sin acceso formal)",–,–
+Parque del este,BARADERO,Reserva municipal,13.0,reserva-municipal,Abierto todos los días (espacio público),Gratuito,Turismo PBA (contexto Baradero)
+Punta Rasa,LA COSTA,Reserva natural municipal,522.0,reserva-municipal,"Acceso libre todos los días (24h, salvo restricciones Prefectura)",Gratuito,El Día (contexto Punta Rasa)
+Parque ecológico,LA PLATA,Parque Ecológico municipal La Plata,206.0,reserva-municipal,,,
+Santa Catalina,LOMAS DE ZAMORA,Reserva municipal,16.0,reserva-municipal,No abierta al público (predio de reserva educativa),No corresponde,–
+Quinta de Cigordia,LUJÁN,Reserva natural municipal,15.0,reserva-municipal,Todos los días 08:00–19:00,Gratuito,BuenosAires123
+Del Pilar,PILAR,Reserva natural municipal,297.0,reserva-municipal,Todos los días 09:00–18:00,Gratuito,Reserva Pilar (Facebook)
+Bajo de Bordenave,PUAN,Reserva educativa municipal,5.0,reserva-municipal,No abierta al público,No corresponde,–
+Selva Marginal quilmeña,QUIMES,Parque Natural y Reserva Ecológica Municipal,150.0,reserva-municipal,No abierta libremente (recorridas guiadas esporádicas),Gratuito,–
+Ramallo,RAMALLO,Reserva natural municipal,16.0,reserva-municipal,Sin datos (espacio natural sin infraestructura),Gratuito,–
+Ribera Norte,SAN ISIDRO,Reserva natural municipal,50.0,reserva-municipal,"Lunes a viernes 09:00–17:00; sábados, domingos 09:00–18:00",Gratuito,Mun. San Isidro
+Barranca de la Quinta Los Ombues,SAN ISIDRO,Reserva natural municipal,,reserva-municipal,Martes a domingos 13:00–19:00 (horario de museo histórico),Gratuito,Mun. San Isidro (Facebook)
+Barranca de la Quinta Pueyrredon,SAN ISIDRO,Reserva natural municipal,1.0,reserva-municipal,Martes a domingos 10:00–18:00 (horario de parque/museo),Gratuito,"San Isidro Cultura (sitio oficial, horario museos)"
+Rafael de Aguiar,SAN NICOLÁS,Parque Urbana Natural Municipal,1500.0,reserva-municipal,Abierto todo el año (acceso público sin restricción horaria),Gratuito,Clarín (puesta en valor recreativa)
+Vuelta de Obligado,SAN PEDRO,Reserva natural municipal,9.0,reserva-municipal,"Todos los días 09:00–18:00 (aprox., horario diurno)",Gratuito,Turismo PBA (mención circuito)
+Claromecó,TRES ARROYOS,Reserva natural municipal,1100.0,reserva-municipal,,,
+Faro Querandí,VILLA GESELL,Reserva natural municipal,5757.0,reserva-municipal,,,
+La salada,VILLARINO,Reserva natural municipal,,reserva-municipal,"Sin datos (proyecto de reserva en humedal, sin acceso formal)",–,–
+Bosque Escondido,VILLARINO,Reserva natural municipal,,reserva-municipal,,,
+Parque lacunario General San Martín,BRAGADO,Reserva Histórica Natural municipal,320.0,reserva-municipal,,,
+Vivero Dunícola Florentino Ameghino,GENERAL ALVARADO,Reserva Natural,502.0,reserva-municipal,,,
+Rio Reconquista de Ituzaingó,ITUZAINGO,Reserva Natural Urbana,27.0,reserva-municipal,,,
+Ciudad Evita,LA MATANZA,Reeva  Natural y Área ecologicamente Protegida,,reserva-municipal,,,
+Parque Plaza Montero,LAS FLORES,Reserva Natural Urbana y Refugio de Vida Silvestre,29.0,reserva-municipal,,,
+Arenas Verdes,LOBERÍA,Paisaje protegido de interés provincial,,reserva-municipal,,,
+Dique Ing. Roggero,MORENO,Area natural protegida,1000.0,reserva-municipal,,,
+Morón,MORÓN,Reserva Natural Urbana,,reserva-municipal,,,
+Ex Batallon Viejobueno,QUIMES,Reserva Ecológica y Área de Protección Ambiental,40.0,reserva-municipal,,,
+Ricardo Güiraldes,SAN ANTONIO DE ARECO,"reserva Natural urbana, Parque criollo y Museo Gauchesco",,reserva-municipal,,,
+Bosque Alegre,SAN ISIDRO,Paisaje Protegido,,reserva-municipal,,,
+Islas de San Isidro,SAN ISIDRO,Paisaje Protegido,180.0,reserva-municipal,,,
+El Corredor,SAN MIGUEL,Reserva Natural Urbana,,reserva-municipal,,,
+Vicente López,VICENTE LÓPEZ,Reserva Ecológica,,reserva-municipal,,,
+Zárate,ZÁRATE,Reserva Natural Urbana,63.0,reserva-municipal,,,
+nan,nan,nan,,reserva-municipal,,,
+Campo Mar Chiquita Dragones de Malvinas,MAR CHIQUITA,Reserva natural de defensa,1753.0,reserva-natural-de-defensa,,,
+Baterías  Charles Darwin,BAHIA BLANCA,Reserva natural de defensa,1000.0,reserva-natural-de-defensa,,,
+Faro Querandí,VILLA GESELL,Reserva natural de defensa,44.0,reserva-natural-de-defensa,,,
+nan,nan,nan,,reserva-natural-de-defensa,,,
+Puerto de Mar del Plata,"Dársenas del Puerto de Mar del Plata, Partido de Gral. Pueyrredón",Reserva natural de objetivo definido,,reservas_info,Todos los días 10:00–18:00,Gratuito,Ministerio de Ambiente PBA
+Laguna de los Padres,"A 12 km al oeste de la ciudad de Mar del Plata, Pdo. Gral. Pueyrredón",Reserva natural de objetivo definido,,reservas_info,Todos los días 08:00–20:00,Gratuito,MGP / La Capital MdP
+Bahía de Samborombón (Sitio RAMSAR),Costa estuarina desde Magdalena hasta Gral. Lavalle (varios partidos),Reserva natural de objetivos definidos,,reservas_info,No abierta al público (área natural amplia sin horario),No corresponde,OPDS – Listado oficial
+Rincón de Ajó,Zona costera en Punta Rasa (Gral. Lavalle/La Costa),Reserva natural de objetivos definidos,,reservas_info,No abierta al público (reserva estricta sin visitas),No corresponde,Min. Ambiente PBA
+Laguna Chasicó,"Laguna Chasicó, límite partidos Villarino–Puan (sudoeste bonaerense)",Reserva natural de objetivos definidos,,reservas_info,No abierta al público (acceso libre para pesca deportiva),Gratuito (con licencia de pesca),OPDS – Listado oficial
+Otamendi,"Campana (refugio de Vida Silvestre Nac. Otamendi, km 66 RN9)",Sitio Ramsar – Reserva natural estrícta (APN),,reservas_info,Todos los días 09:00–18:00 (ingreso diurno),Gratuito,La Nación
+Parque Nacional Campos del Tuyú,"Monte de Trigo, Partido de Gral. Lavalle (Bahía Samborombón)",Reserva natural estricta (APN),,reservas_info,No abierta al público aún,No corresponde,Argentina.gob.ar
+Costera Bahía Blanca,"Balneario Maldonado, Bahía Blanca (costa estuario)",Reserva natural de objetivo educativo (munic.),,reservas_info,Sin horarios fijos (visitas guiadas ocasionales),Gratuito,Aves Argentinas (consulta turismo)
+Paraná Guazú,"Islas del río Paraná Guazú, Partido de Baradero",Reserva natural de objetivo educativo (munic.),,reservas_info,No abierta al público (islas del delta sin acceso turístico),No corresponde,OPDS – Listado oficial
+Guardia del Juncal,"Zona rural de Uribelarrea, Partido de Cañuelas",Reserva natural municipal (educativa),,reservas_info,No abierta al público (reserva educativa cerrada),No corresponde,–
+Pehuen-Co – Monte Hermoso,Costa entre Balneario Pehuen Co (Cnel. Rosales) y Monte Hermoso,Reserva natural arqueológica/paleont.,,reservas_info,"Visitas solo con guía especializada, según mareas (coordinar con Museo en Monte Hermoso)",ARS 4.000 adultos / ARS 3.000 menores (visita guiada),Municipio de Monte Hermoso; Infocielo
+Ingeniero Maschwitz,"Sucre 1550 (esq. Obligado), Ing. Maschwitz, Pdo. Escobar",Reserva Natural Educativa (munic.),,reservas_info,Miércoles a domingos 09:00–17:00 (cerrado lluvia),Gratuito,Reserva Maschwitz (Escobar)
+Restinga del Faro,"Costa rocosa junto al Faro Punta Mogotes, Mar del Plata (Pdo. Gral. Pueyrredón)",Reserva natural geológica/faunística,,reservas_info,"Sin horarios (acceso libre a la costa, sin servicios)",Gratuito,–
+Costanera Sur (Mar del Plata),Sector sur costero de Mar del Plata (bosque de Peralta Ramos),Reserva turística y forestal,,reservas_info,"Sin horarios (área pública, acceso libre)",Gratuito,–
+Laguna de San Vicente,Laguna en San Vicente (Partido de San Vicente),Reserva natural/faunística municipal,,reservas_info,Sin datos (posiblemente abierta días festivos locales),Gratuito,–
+Sierra del Tigre (Tandil),"Tandil (sierra sur de la ciudad, acceso por calle Suiza)",Reserva Natural de Flora y Fauna (priv.),,reservas_info,Invierno 09:30–17:30; Verano 09:00–19:00 (cerrado lluvias),ARS 5.000 por persona (menores 10 años gratis),Reserva Sierra del Tigre
+Dr. Carlos Spegazzini,"Estación Santa Catalina, Lomas de Zamora",Reserva botánica micológica,,reservas_info,No abierta al público (área de investigación),No corresponde,–
+Selva Marginal de Hudson,"Ribera del Río de la Plata en Hudson, Pdo. Berazategui",Reserva de recursos naturales,,reservas_info,No abierta al público (solo investigación/educación),No corresponde,–
+"Bahías Blanca, Falsa y Verde","Estuario de Bahía Blanca (Partidos Villarino, Bahía Blanca, Cnel. Rosales)",Reserva natural de uso múltiple (prov.),,reservas_info,Sin horarios fijos (acceso con autorización especial o excursión),Gratuito,Min. Ambiente PBA
+Río Luján (Campana),"Ribera del Río Luján, Partido de Campana",Reserva natural de uso múltiple,,reservas_info,"No abierta al público (zona protegida, sin uso recreativo)",No corresponde,–
+Arroyo Los Gauchos,"Bañados del Arroyo Los Gauchos, Partido de Cnel. Dorrego",Reserva natural de uso múltiple,,reservas_info,No abierta al público,No corresponde,–
+Laguna Salada Grande,Laguna Salada Grande (Partidos Gral. Madariaga y Gral. Lavalle),Reserva natural de uso múltiple (prov.),,reservas_info,"Sábados, domingos y feriados 10:00–17:00",Gratuito (permiso de pesca requerido),Min. Ambiente PBA
+Isla Martín García,"Isla Martín García, Río de la Plata (jurisd. La Plata)",Reserva de biosfera (UNESCO),,reservas_info,"Servicio de lancha los martes, jueves, sábados, domingos y feriados (sale 08:30 h de Tigre, regresa ~20:00 h)",Gratuito (traslado en lancha pago),Min. Ambiente PBA
+Mar Chiquita (Laguna),"Balneario Parque Mar Chiquita, Partido de Mar Chiquita",Reserva de biosfera (UNESCO),,reservas_info,Todos los días 09:00–17:00,Gratuito,Min. Ambiente PBA
+Arroyo Zabala,Costa atlántica entre Necochea y San Cayetano (sector Arroyo Zabala),Reserva natural de uso múltiple,,reservas_info,No abierta al público,No corresponde,–
+Bahía San Blas,"Bahía San Blas, Partido de Patagones",Reserva natural de uso múltiple,,reservas_info,"Sin horarios (acceso libre, actividad de pesca deportiva)",Gratuito,–
+Isla de Puan,"Isla en la Laguna de Puan, Partido de Puan",Reserva natural de uso múltiple,,reservas_info,Visitas mediante lanchas turísticas (según programación local),Gratuito (traslado en lancha pago),Turismo Puan (redes sociales locales)
+Isla Botija,"Isla “Botija” en el Delta del Paraná, Partido de Zárate",Reserva natural de uso múltiple,,reservas_info,No abierta al público,No corresponde,–
+Islote de la Gaviota Cangrejera,"Islote en la ría de Bahía Blanca, Pdo. Bahía Blanca",Reserva natural integral (prov.),,reservas_info,"No abierta al público (isla protegida, acceso prohibido)",No corresponde,Min. Ambiente PBA
+Punta Lara,"Punta Lara, partidos de Ensenada y Berazategui",Reserva natural integral mixta (prov.),,reservas_info,Visitas solo con guía (turno previo por email; sin ingreso libre),Gratuito,Min. Ambiente PBA; La Otra Cara
+Laguna de Rocha,"Esteban Echeverría (Laguna de Rocha, Monte Grande)",Reserva natural integral mixta (prov.),,reservas_info,No abierta al público (acceso solo con permiso especial),No corresponde,Ley Prov. 14.488 (creación reserva)
+Isla Laguna Alsina,"Isla en Laguna Alsina, Partido de Guaminí",Reserva natural integral (prov.),,reservas_info,No abierta al público,No corresponde,–
+Delta en formación (Islas de La Plata),"Delta en formación en Río de la Plata, frente a La Plata",Reserva natural integral (prov.),,reservas_info,No abierta al público,No corresponde,–
+Bahía de Samborombón (núcleo),Sectores de máxima protección en Bahía Samborombón (varios partidos),Reserva natural integral (prov.),,reservas_info,No abierta al público,No corresponde,OPDS – Sitio RAMSAR
+Parque ecológico Islas 1ª Sección (Delta),"Delta del Paraná, Primera Sección de islas (Partido de Tigre)",Reserva natural integral (prov.),,reservas_info,No abierta al público (uso científico/educativo),No corresponde,–
+Rincón de Ajó (núcleo),"Punta Rasa – Rincón de Ajó (partidos Tordillo, Gral. Lavalle, La Costa)",Reserva natural integral (prov.),,reservas_info,No abierta al público (reserva estricta sin visitas),No corresponde,Min. Ambiente PBA
+Pereyra Iraola,Parque Pereyra Iraola (Berazategui/Ensenada/La Plata),Reserva de Biósfera (UNESCO),,reservas_info,Abierto lun a dom 09:00–20:00,Gratuito,Meteored
+Parque Costero del Sur,Costa del Río de la Plata entre Punta Indio y Magdalena,Reserva de Biósfera (UNESCO),,reservas_info,Sin horarios fijos (acceso libre a senderos; visitas guiadas disponibles),Gratuito,UNESCO – RB Parque Costero Sur
+Parque Atlántico Mar Chiquito,"Balneario Mar Chiquita, Partido de Mar Chiquita",Reserva de Biósfera (UNESCO),,reservas_info,Todos los días 09:00–17:00 (Centro de visitantes),Gratuito,Min. Ambiente PBA
+Delta del Paraná (RB),"Delta del Paraná (islas de Tigre, San Fernando, etc.)",Reserva de Biósfera (UNESCO),,reservas_info,Sin horarios (región del delta habitada; excursiones privadas),Gratuito,UNESCO – RB Delta Paraná (cit. Instagram)
+Barranca Norte,"A 12 km al este de Baradero (Barrancas del Paraná, Pdo. Baradero)",Reserva natural privada (botánica),,reservas_info,No abierta al público (reserva privada sin visitas),No corresponde,Min. Ambiente PBA
+El Morejón,Campana (zona islas del Paraná de Campana),Reserva natural privada,,reservas_info,No abierta al público,No corresponde,–
+Paitití,"Sierra de los Padres, Mar del Plata (Pdo. Gral. Pueyrredón)",Reserva Natural Privada,,reservas_info,No abierta al público,No corresponde,–
+El Destino,"RP 11 km 17 al sur de Magdalena, Pdo. Magdalena",Reserva Nat. Privada (Educ. y Botánica),,reservas_info,Mar–Nov: todos los días 08:00–18:00 (miércoles cerrado); Dic–Feb: todos los días 08:00–20:00,ARS 6.000 entrada por persona; camping ARS 12.000; actividades extra desde ARS 6.000,Infocielo; Sitio oficial
+Nahuel Rucá,"Laguna Nahuel Rucá, Partido de Mar Chiquita",Reserva Natural Privada,,reservas_info,No abierta al público (campo privado),No corresponde,–
+Arroyo Durazno,"Marcos Paz (zona Arroyo Durazno, Pdo. Marcos Paz)",Reserva natural privada (educativa),,reservas_info,No abierta al público,No corresponde,–
+La Amanda,"Punta Indio (zona rural), Partido de Punta Indio",Reserva natural privada,,reservas_info,No abierta al público,No corresponde,–
+Punta Indio (Estancia),"Punta Indio (área rural costera, Pdo. Punta Indio)",Reserva natural privada,,reservas_info,No abierta al público,No corresponde,–
+Las Piedras,Sierras de Saavedra (Partido de Saavedra),Reserva Natural Privada,,reservas_info,No abierta al público,No corresponde,–
+Santuario del Cauquén Colorado,"San Cayetano (costa atlántica), Partido de San Cayetano",Reserva privada (faunística),,reservas_info,No abierta al público (área protegida de uso científico),No corresponde,–
+Che Roga,"Delta del Paraná, Partido de San Fernando",Reserva Natural Privada,,reservas_info,No abierta al público,No corresponde,–
+Sendero Pampa,"Campus Univ. del Centro (UNICEN), Tandil",Reserva Natural Privada (UNCPBA),,reservas_info,Visitas educativas programadas (consultar universidad),Gratuito (actividades educativas),UNICEN
+Sierras Grandes,"Sierras de Tornquist (establecimiento privado), Pdo. Tornquist",Reserva natural privada (educ. y botánica),,reservas_info,No abierta al público (acceso solo con autorización),No corresponde,Min. Ambiente PBA (reg. OPDS)
+Delta Terra,"Arroyo Rama Negra Chico, Delta de Tigre (1ª Sección de islas)",Paisaje protegido (Reserva privada),,reservas_info,"Sábados, domingos y feriados 10:00–17:30 (abre fines de semana)",Gratuito (traslado en lancha con costo),Fundación Azara
+Achalay,"Delta del Paraná, Partido de Tigre",Reserva natural (privada),,reservas_info,No abierta al público,No corresponde,–
+Laguna Epecuén,"Ruinas de Villa Epecuén, Partido de Adolfo Alsina",Reserva natural municipal,,reservas_info,"Abierto todos los días (acceso libre, ruinas al aire libre)",Gratuito,"Turismo PBA (ref. Magdalena, sim.)"
+La Saladita,"Villa Domínico, Partido de Avellaneda",Reserva natural municipal,,reservas_info,"Sin datos (proyecto de reserva en humedal, sin acceso formal)",–,–
+Parque del Este,"Costanera de Baradero, Partido de Baradero",Reserva municipal,,reservas_info,Abierto todos los días (espacio público),Gratuito,Turismo PBA (contexto Baradero)
+Punta Rasa,"Punta Rasa, San Clemente (Partido de La Costa)",Reserva natural municipal,,reservas_info,"Acceso libre todos los días (24h, salvo restricciones Prefectura)",Gratuito,El Día (contexto Punta Rasa)
+Parque Ecológico Municipal (La Plata),"Camino Centenario y 426, Villa Elisa, Partido de La Plata",Parque Ecológico municipal,,reservas_info,Lunes a domingo 09:00–19:00,Gratuito,MLP / Facebook
+Santa Catalina,"Santa Catalina (Luis Guillón), Partido de Lomas de Zamora",Reserva natural municipal,,reservas_info,No abierta al público (predio de reserva educativa),No corresponde,–
+Quinta de Cigordia,"Barrio La Loma, ciudad de Luján (a 5 cuadras de la Basílica)",Reserva natural municipal,,reservas_info,Todos los días 08:00–19:00,Gratuito,BuenosAires123
+Del Pilar,"Partido de Pilar (ribera del Río Luján, km 58 Acceso Norte)",Reserva natural municipal,,reservas_info,Todos los días 09:00–18:00,Gratuito,Reserva Pilar (Facebook)
+Bajo de Bordenave,Bordenave (Partido de Puan) – humedal local,Reserva educativa municipal,,reservas_info,No abierta al público,No corresponde,–
+Selva Marginal Quilmeña,"Ribera de Quilmes, Partido de Quilmes",Parque Natural y Reserva Ecológica (munic.),,reservas_info,No abierta libremente (recorridas guiadas esporádicas),Gratuito,–
+Ramallo,"Costa del río Paraná en Villa Ramallo, Partido de Ramallo",Reserva natural municipal,,reservas_info,Sin datos (espacio natural sin infraestructura),Gratuito,–
+Ribera Norte (San Isidro),"Camino de la Ribera 480, Acassuso, Partido de San Isidro",Reserva natural municipal,,reservas_info,"Lunes a viernes 09:00–17:00; sábados, domingos 09:00–18:00",Gratuito,Mun. San Isidro
+Barranca de Los Ombúes,"Quinta Los Ombúes (Museo Beccar Varela), San Isidro",Reserva natural municipal,,reservas_info,Martes a domingos 13:00–19:00 (horario de museo histórico),Gratuito,Mun. San Isidro (Facebook)
+Barranca de la Quinta Pueyrredón,"Quinta Pueyrredón (Museo Pueyrredón), San Isidro",Reserva natural municipal,,reservas_info,Martes a domingos 10:00–18:00 (horario de parque/museo),Gratuito,"San Isidro Cultura (sitio oficial, horario museos)"
+Rafael de Aguiar (San Nicolás),"Ribera del Río Paraná, 12 km NE de San Nicolás (Pdo. San Nicolás)",Parque Natural Urbano (municipal),,reservas_info,Abierto todo el año (acceso público sin restricción horaria),Gratuito,Clarín (puesta en valor recreativa)
+Vuelta de Obligado,"Vuelta de Obligado, San Pedro (sobre río Paraná)",Reserva natural municipal,,reservas_info,"Todos los días 09:00–18:00 (aprox., horario diurno)",Gratuito,Turismo PBA (mención circuito)
+Claromecó,"Balneario Claromecó y dunas adyacentes, Pdo. Tres Arroyos",Reserva natural municipal,,reservas_info,Acceso libre permanente (playas y bosques sin cercado),Gratuito,Municipalidad Tres Arroyos (turismo local)
+Faro Querandí (Gesell),"Médanos del Faro Querandí, 5 km al sur de Mar Azul (Pdo. Villa Gesell)",Reserva natural municipal,,reservas_info,Acceso libre permanente (requiere vehículo 4x4 por arena),Gratuito,Sec. Turismo Villa Gesell (informes locales)
+La Salada (Villarino),"Laguna La Salada, Partido de Villarino",Reserva natural municipal,,reservas_info,Sin datos (posible acceso de pescadores local),No corresponde,–
+Bosque Escondido (Villarino),"Bosque de caldenes en Pedro Luro, Partido de Villarino",Reserva natural municipal,,reservas_info,Sin datos (sector protegido sin infraestructura),Gratuito,–
+Parque Lacunario Gral. San Martín (Bragado),"Laguna de Bragado (Parque Gral. San Martín), Pdo. Bragado",Reserva histórica natural municipal,,reservas_info,Abierto todo el año (parque público),Gratuito,Municipio de Bragado (turismo local)
+Vivero Dunícola F. Ameghino (Miramar),"Vivero Dunícola, Miramar, Pdo. Gral. Alvarado",Reserva natural (paisaje protegido),,reservas_info,"Todos los días 08:00–20:00 (aprox., parque forestal abierto)",Gratuito,Mun. Gral. Alvarado (ref. simil. abiertos)
+Río Reconquista (Ituzaingó),"Ribera del Río Reconquista, Partido de Ituzaingó",Reserva Natural Urbana,,reservas_info,Sin datos (abierta durante eventos de educación ambiental),Gratuito,Municipio Ituzaingó (programas ambientales)
+Ciudad Evita (La Matanza),"Ciudad Evita, Partido de La Matanza",Reserva Natural y Área Protegida,,reservas_info,Sin datos (sector protegido periurbano),Gratuito,–
+Parque Plaza Montero (Las Flores),"Laguna del Parque Plaza Montero, Las Flores",Reserva Natural Urbana y Refugio,,reservas_info,Abierto todos los días (parque urbano público),Gratuito,Municipio de Las Flores (turismo)
+Arenas Verdes (Lobería),"Balneario Arenas Verdes, Partido de Lobería",Paisaje protegido de interés provincial,,reservas_info,Acceso libre permanente (playa y médanos abiertos),Gratuito,Municipalidad de Lobería (turismo)
+Dique Ing. Roggero (“Los Robles”),"Dique Roggero, Cuenca Reconquista (Partido de Moreno)",Área natural protegida (municipal),,reservas_info,"Todos los días 08:00–18:00 (aprox., parque “Los Robles”)",Gratuito (estac. vehículo pago modesto),Municipio de Moreno (Ambiente)
+Morón (Reserva Urbana),"Barrio Pontevedra, Partido de Morón",Reserva Natural Urbana,,reservas_info,Sin datos (acceso controlado por visitas guiadas),Gratuito,Mun. Morón (Agenda Ambiental)
+Ex Batallón Viejo Bueno (Quilmes),"Ex Batallón “Viejo Bueno”, Quilmes (Ezpeleta)",Reserva Ecológica y Área Protec. Amb.,,reservas_info,No abierta al público (predio militar reconvertido),No corresponde,"Diario5dias (Quilmes, noticia creación)"
+Ricardo Güiraldes (Areco),"Villa Lía, Pdo. San Antonio de Areco (zona Parque Criollo)",Reserva Natural Urbana / Parque Criollo,,reservas_info,Sin datos (posible acceso con horario museo gauchesco),Gratuito,Mun. Areco (Turismo cultural)
+Bosque Alegre (San Isidro),"Barranca del Bosque Alegre, Barrio Santa Rita, San Isidro",Paisaje Protegido (municipal),,reservas_info,Sin datos (acceso limitado por propiedad privada/club),–,San Isidro (Patrimonio local)
+Islas de San Isidro,Islas del Delta frente a San Isidro (Río de la Plata),Paisaje Protegido (municipal),,reservas_info,No abierta al público (islas sin desarrollo turístico),No corresponde,–
+El Corredor (San Miguel),"Barrio El Corredor, Partido de San Miguel",Reserva Natural Urbana,,reservas_info,Sin datos (área verde urbana con senderos),Gratuito,Mun. San Miguel (Medio Ambiente)
+Vicente López (Reserva Ecológica),Costa de Vicente López (Parque Natural Ribera VL),Reserva Ecológica (municipal),,reservas_info,Martes a domingos 09:30–18:00 (lun cerrado),Gratuito,"GCBA (Reserva Ribera, ref.)"
+Zárate (Reserva Natural Urbana),"Ribera del Paraná de las Palmas, Partido de Zárate",Reserva Natural Urbana,,reservas_info,Sin datos (acceso libre a espacios costeros sin control),Gratuito,"Mun. Zárate (ecología, sin detalle público)"

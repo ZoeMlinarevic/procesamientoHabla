@@ -1,0 +1,118 @@
+# EcoGuía 24/7 — Backend + Frontend (resumen y cómo inicializar en CMD)
+
+Descripción
+Proyecto sencillo que expone un backend en Flask que sirve el flujo de un chatbot ("EcoGuía 24/7") definido en `bot.txt` (JSON). El frontend es un HTML estático (`eco_guia_frontend.html`) que consume dos endpoints:
+
+
+Estructura importante
+  - eco_guia_backend.py   ← servidor Flask listo para ejecutar
+  - bot.txt               ← definición JSON del flujo del bot (obligatorio)
+  - eco_guia_frontend.html← interfaz cliente (configurar API_BASE si es necesario)
+  - .venv\                ← entorno virtual (opcional)
+- Python 3.8+
+- pip
+
+Instrucciones para inicializar en CMD (Windows)
+# EcoGuía 24/7 — Chatbot para reservas naturales
+
+Descripción
+-----------
+Este proyecto es un chatbot conversacional pensado para facilitar información y servicios relacionados con reservas naturales: horarios, tarifas, actividades, accesos y respuestas rápidas a preguntas comunes. El flujo del bot se define en `bot.txt` (JSON) y el backend lo expone mediante una API sencilla que consume un frontend estático.
+
+Qué incluye
+-----------
+- `eco_guia_backend.py` : servidor Flask que implementa la lógica del chatbot y expone los endpoints API.
+- `bot.txt`             : definición JSON del flujo de conversación (nodos, opciones y transiciones).
+- `eco_guia_frontend.html`: interfaz web estática que consume la API para mostrar la conversación al usuario.
+- `.venv/` (opcional)   : entorno virtual recomendado para instalar dependencias.
+
+Endpoints principales
+---------------------
+- `POST /api/start` → devuelve el nodo inicial del diálogo.
+- `POST /api/step`  → avanza el flujo; enviar JSON con `node_id` y `option_id` o `user_input` según el tipo de nodo.
+
+Requisitos
+----------
+- Python 3.8 o superior
+- pip
+- (recomendado) crear y usar un entorno virtual
+
+Cómo iniciar (CMD en Windows)
+-----------------------------
+1. Abrir CMD y moverse a la carpeta del proyecto:
+```
+cd /d "C:\Users\User\Desktop\Procesamiento"
+```
+
+2. (Opcional) Crear un entorno virtual si aún no existe:
+```
+python -m venv .venv
+```
+
+3. Activar el entorno (CMD):
+```
+.\.venv\Scripts\activate
+```
+
+Si usás PowerShell y te bloquea la ejecución de scripts, ejecutar primero (solo para la sesión actual):
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+& .\.venv\Scripts\Activate.ps1
+```
+
+4. Actualizar pip e instalar dependencias dentro del entorno activado:
+```
+python -m pip install --upgrade pip
+python -m pip install flask
+```
+
+5. Verificar que `bot.txt` está presente en la carpeta:
+```
+dir bot.txt
+```
+
+6. Ejecutar el backend:
+```
+python eco_guia_backend.py
+```
+
+Deberías ver un mensaje indicando que el servidor está corriendo en `http://localhost:8000`.
+
+Probar los endpoints desde CMD (ejemplos con `curl`)
+--------------------------------------------------
+- Probar `/api/start`:
+```
+curl -X POST http://localhost:8000/api/start
+```
+- Probar `/api/step` con opción:
+```
+curl -X POST http://localhost:8000/api/step -H "Content-Type: application/json" -d "{\"node_id\":\"inicio_menu\",\"option_id\":\"opcion1\"}"
+```
+
+Configurar el frontend
+----------------------
+Si abres `eco_guia_frontend.html` directamente desde `file://` puede haber problemas con CORS o rutas. Lo más simple es modificar la variable `API_BASE` dentro del HTML para apuntar a `http://localhost:8000/api` y luego abrir el archivo en el navegador, o servir el HTML con un servidor estático:
+```
+python -m http.server 5500
+# abrir: http://localhost:5500/eco_guia_frontend.html
+```
+
+Problemas comunes
+-----------------
+- `ModuleNotFoundError: No module named 'flask'`: activá el venv correcto y ejecutá `python -m pip install flask`.
+- Error al activar en PowerShell: ejecutar `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force` antes de `Activate.ps1`.
+- `Not Found` al hacer fetch desde el frontend: comprobar que `API_BASE` apunta a `http://localhost:8000/api` y que el backend está corriendo.
+
+Notas finales
+------------
+Este proyecto está pensado como un ejemplo ligero para desarrollar y probar flujos conversacionales para reservas naturales. Si querés, puedo:
+
+- Generar un `requirements.txt` con las dependencias.
+- Extraer las celdas relevantes del notebook `EcoGuia_Chatbot_API.ipynb` a un `app.py` listo para producción.
+- Añadir CORS al backend si querés servir el frontend desde otro origen.
+
+¡Decime qué preferís y lo hago!
+
+1) Abrir CMD y moverse a la carpeta del proyecto:
+````cmd
+cd /d "C:\Users\User\Desktop\Procesamiento"

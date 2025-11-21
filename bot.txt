@@ -1,0 +1,542 @@
+{
+  "bot_name": "EcoGuia 24/7",
+  "start_node_id": "inicio_menu",
+  "nodes": [
+    {
+      "id": "inicio_menu",
+      "type": "menu",
+      "message": "Hola, soy EcoGuía 24/7. ¿En qué puedo ayudarte hoy?",
+      "options": [
+        {
+          "id": "opt_info_parques",
+          "label": "Información general de parques (horarios, tarifas, accesos)",
+          "next_node_id": "info_parques_menu"
+        },
+        {
+          "id": "opt_actividades",
+          "label": "Actividades sostenibles y recomendaciones",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_normas",
+          "label": "Normas ecológicas y seguridad",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_reportes",
+          "label": "Reportar incidente o alerta ambiental",
+          "next_node_id": "reportes_menu"
+        }
+      ]
+    },
+
+    {
+      "id": "info_parques_menu",
+      "type": "menu",
+      "message": "Perfecto. ¿Qué tipo de información sobre parques necesitás?",
+      "options": [
+        {
+          "id": "opt_horarios",
+          "label": "Horarios de apertura y cierre",
+          "next_node_id": "info_horarios_pregunta"
+        },
+        {
+          "id": "opt_tarifas",
+          "label": "Tarifas y tipos de entrada",
+          "next_node_id": "info_tarifas_pregunta"
+        },
+        {
+          "id": "opt_accesos",
+          "label": "Cómo llegar y accesos",
+          "next_node_id": "info_accesos_pregunta"
+        },
+        {
+          "id": "opt_volver_inicio_1",
+          "label": "Volver al menú principal",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "info_horarios_pregunta",
+      "type": "input",
+      "message": "Decime el nombre del parque que querés consultar (por ejemplo, Parque Nacional Iguazú):",
+      "next_node_id": "info_horarios_respuesta"
+    },
+    {
+      "id": "info_horarios_respuesta",
+      "type": "response",
+      "message": "El parque seleccionado abre todos los días de 8:00 a 18:00. Se recomienda llegar temprano para aprovechar mejor los senderos. ¿Querés consultar otra cosa?",
+      "options": [
+        {
+          "id": "opt_horarios_otra_consulta",
+          "label": "Consultar tarifas del mismo parque",
+          "next_node_id": "info_tarifas_respuesta"
+        },
+        {
+          "id": "opt_horarios_volver_menu_parques",
+          "label": "Volver al menú de información de parques",
+          "next_node_id": "info_parques_menu"
+        },
+        {
+          "id": "opt_horarios_volver_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "info_tarifas_pregunta",
+      "type": "input",
+      "message": "Indica el parque para ver las tarifas aproximadas (por ejemplo, Talampaya):",
+      "next_node_id": "info_tarifas_respuesta"
+    },
+    {
+      "id": "info_tarifas_respuesta",
+      "type": "response",
+      "message": "La entrada general tiene un costo aproximado que puede variar según temporada y categoría de visitante. Te recomiendo verificar la tarifa actualizada en el sitio oficial o centro de informes. ¿Querés que te ayude con accesos o actividades en este parque?",
+      "options": [
+        {
+          "id": "opt_tarifas_accesos",
+          "label": "Ver accesos al parque",
+          "next_node_id": "info_accesos_pregunta"
+        },
+        {
+          "id": "opt_tarifas_actividades",
+          "label": "Ver actividades recomendadas",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_tarifas_volver_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "info_accesos_pregunta",
+      "type": "input",
+      "message": "¿Desde qué ciudad querés saber cómo llegar al parque?",
+      "next_node_id": "info_accesos_respuesta"
+    },
+    {
+      "id": "info_accesos_respuesta",
+      "type": "response",
+      "message": "Podés llegar en vehículo particular o excursión contratada desde la ciudad indicada. Te sugiero consultar horarios de transporte y estado de los caminos antes de viajar. ¿Te gustaría ver actividades recomendadas en ese destino?",
+      "options": [
+        {
+          "id": "opt_accesos_actividades",
+          "label": "Ver actividades sostenibles en el parque",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_accesos_volver_parques",
+          "label": "Volver a información de parques",
+          "next_node_id": "info_parques_menu"
+        },
+        {
+          "id": "opt_accesos_volver_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "actividades_menu",
+      "type": "menu",
+      "message": "Te puedo sugerir actividades sostenibles según el tipo de experiencia que busques. ¿Qué te interesa?",
+      "options": [
+        {
+          "id": "opt_activ_sendersimo",
+          "label": "Senderismo y caminatas",
+          "next_node_id": "activ_sendersimo_pregunta"
+        },
+        {
+          "id": "opt_activ_avistaje",
+          "label": "Avistaje de fauna y aves",
+          "next_node_id": "activ_avistaje_pregunta"
+        },
+        {
+          "id": "opt_activ_lacustres",
+          "label": "Paseos lacustres y navegación",
+          "next_node_id": "activ_lacustres_pregunta"
+        },
+        {
+          "id": "opt_activ_volver_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "activ_sendersimo_pregunta",
+      "type": "input",
+      "message": "Indica el parque o zona donde querés hacer senderismo:",
+      "next_node_id": "activ_sendersimo_respuesta"
+    },
+    {
+      "id": "activ_sendersimo_respuesta",
+      "type": "response",
+      "message": "En el área indicada hay varios senderos habilitados con diferentes niveles de dificultad. Te recomiendo consultar la duración de cada recorrido, el desnivel y el estado del clima antes de salir. ¿Querés que te muestre recomendaciones de seguridad?",
+      "options": [
+        {
+          "id": "opt_sendersimo_seguridad",
+          "label": "Ver recomendaciones de seguridad",
+          "next_node_id": "normas_seguridad_recomendaciones"
+        },
+        {
+          "id": "opt_sendersimo_otras_actividades",
+          "label": "Ver otras actividades sostenibles",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_sendersimo_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "activ_avistaje_pregunta",
+      "type": "input",
+      "message": "¿Te interesa avistaje de aves, fauna en general o ambos?",
+      "next_node_id": "activ_avistaje_respuesta"
+    },
+    {
+      "id": "activ_avistaje_respuesta",
+      "type": "response",
+      "message": "Para el avistaje responsable te recomiendo mantener distancia, evitar ruidos fuertes, no usar flash y no alimentar a los animales. ¿Querés que te comparta normas ecológicas específicas del parque?",
+      "options": [
+        {
+          "id": "opt_avistaje_normas",
+          "label": "Ver normas ecológicas",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_avistaje_otras_actividades",
+          "label": "Ver otras actividades",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_avistaje_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "activ_lacustres_pregunta",
+      "type": "input",
+      "message": "Indica el lago o zona para paseos lacustres que te interesa:",
+      "next_node_id": "activ_lacustres_respuesta"
+    },
+    {
+      "id": "activ_lacustres_respuesta",
+      "type": "response",
+      "message": "En el área indicada suelen ofrecerse paseos en embarcaciones autorizadas. Es importante respetar los chalecos salvavidas, las indicaciones de la tripulación y no arrojar residuos al agua. ¿Querés consultar horarios o tarifas de excursiones?",
+      "options": [
+        {
+          "id": "opt_lacustres_tarifas",
+          "label": "Consultar tarifas de excursiones",
+          "next_node_id": "info_tarifas_pregunta"
+        },
+        {
+          "id": "opt_lacustres_volver_activ",
+          "label": "Volver al menú de actividades",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_lacustres_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_menu",
+      "type": "menu",
+      "message": "¿Sobre qué tema de normas y seguridad querés información?",
+      "options": [
+        {
+          "id": "opt_normas_animales",
+          "label": "Fauna silvestre (alimentar, acercarse, fotos)",
+          "next_node_id": "normas_animales"
+        },
+        {
+          "id": "opt_normas_fuego",
+          "label": "Uso de fuego y riesgos de incendio",
+          "next_node_id": "normas_fuego"
+        },
+        {
+          "id": "opt_normas_seguridad_general",
+          "label": "Seguridad general en senderos",
+          "next_node_id": "normas_seguridad_recomendaciones"
+        },
+        {
+          "id": "opt_normas_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_animales",
+      "type": "response",
+      "message": "No está permitido alimentar a los animales del parque ni acercarse demasiado. Esto altera su comportamiento, puede enfermarlos y aumentar riesgos para las personas. Se recomienda observarlos a distancia y no usar flash en fotografías. ¿Querés ver qué hacer si ves un animal herido?",
+      "options": [
+        {
+          "id": "opt_animales_heridos",
+          "label": "Sí, qué hacer si veo un animal herido",
+          "next_node_id": "normas_animal_herido"
+        },
+        {
+          "id": "opt_animales_otras_normas",
+          "label": "Ver otras normas",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_animales_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_animal_herido",
+      "type": "response",
+      "message": "Si ves un animal herido no lo toques ni intentes trasladarlo. Mantené distancia, sacá una foto si es posible y reportá la ubicación aproximada. El personal especializado evaluará la situación. ¿Querés generar un reporte ahora?",
+      "options": [
+        {
+          "id": "opt_animal_reporte",
+          "label": "Sí, generar reporte de animal herido",
+          "next_node_id": "reportes_animal_herido"
+        },
+        {
+          "id": "opt_animal_volver_normas",
+          "label": "Volver a normas",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_animal_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_fuego",
+      "type": "response",
+      "message": "El uso de fuego está permitido solo en áreas designadas y puede estar totalmente prohibido en temporada de alto riesgo. Nunca enciendas fuego fuera de las zonas habilitadas y asegurate de apagarlo por completo. ¿Querés saber si hay alerta de incendios en tu parque?",
+      "options": [
+        {
+          "id": "opt_fuego_alerta",
+          "label": "Sí, consultar alerta de incendios",
+          "next_node_id": "normas_fuego_alerta"
+        },
+        {
+          "id": "opt_fuego_otras_normas",
+          "label": "Ver otras normas",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_fuego_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_fuego_alerta",
+      "type": "input",
+      "message": "Indicá el parque o área para verificar si suele haber alertas de incendio:",
+      "next_node_id": "normas_fuego_alerta_respuesta"
+    },
+    {
+      "id": "normas_fuego_alerta_respuesta",
+      "type": "response",
+      "message": "En esa área pueden emitirse alertas de incendio según la temporada y las condiciones climáticas. Te recomiendo consultar fuentes oficiales antes de hacer fuego o realizar actividades de riesgo. ¿Querés información sobre seguridad en senderos?",
+      "options": [
+        {
+          "id": "opt_alerta_seguridad",
+          "label": "Sí, ver seguridad en senderos",
+          "next_node_id": "normas_seguridad_recomendaciones"
+        },
+        {
+          "id": "opt_alerta_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_seguridad_recomendaciones",
+      "type": "response",
+      "message": "Para una visita segura se recomienda: avisar la ruta antes de salir, llevar agua suficiente, calzado adecuado, abrigo, protector solar, revisar el clima y no salir de los senderos habilitados. ¿Querés una lista de elementos recomendados para el día?",
+      "options": [
+        {
+          "id": "opt_seguridad_lista",
+          "label": "Sí, ver lista de elementos recomendados",
+          "next_node_id": "normas_lista_elementos"
+        },
+        {
+          "id": "opt_seguridad_volver_normas",
+          "label": "Volver a normas",
+          "next_node_id": "normas_menu"
+        },
+        {
+          "id": "opt_seguridad_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "normas_lista_elementos",
+      "type": "response",
+      "message": "Elementos recomendados: agua, abrigo liviano, gorra o sombrero, protector solar, calzado cómodo, botiquín básico, bolsa para residuos y documento de identidad. ¿Querés seguir consultando sobre actividades o volver al inicio?",
+      "options": [
+        {
+          "id": "opt_lista_actividades",
+          "label": "Ir a actividades sostenibles",
+          "next_node_id": "actividades_menu"
+        },
+        {
+          "id": "opt_lista_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+
+    {
+      "id": "reportes_menu",
+      "type": "menu",
+      "message": "Gracias por contribuir al cuidado del área natural. ¿Qué tipo de situación querés reportar?",
+      "options": [
+        {
+          "id": "opt_reporte_basura",
+          "label": "Basura o residuos en senderos",
+          "next_node_id": "reportes_basura"
+        },
+        {
+          "id": "opt_reporte_animal_herido",
+          "label": "Animal herido o en riesgo",
+          "next_node_id": "reportes_animal_herido"
+        },
+        {
+          "id": "opt_reporte_humo_fuego",
+          "label": "Humo, fuego o posible incendio",
+          "next_node_id": "reportes_incendio"
+        },
+        {
+          "id": "opt_reporte_inicio",
+          "label": "Volver al inicio",
+          "next_node_id": "inicio_menu"
+        }
+      ]
+    },
+    {
+      "id": "reportes_basura",
+      "type": "input",
+      "message": "Gracias por avisar. Decime en qué zona viste la basura (por ejemplo, nombre del sendero o punto de referencia):",
+      "next_node_id": "reportes_basura_respuesta"
+    },
+    {
+      "id": "reportes_basura_respuesta",
+      "type": "response",
+      "message": "Registré un reporte de residuos en la zona indicada con el número R-2025-0101. El personal de mantenimiento será notificado. ¿Querés agregar una foto o ubicación precisa?",
+      "options": [
+        {
+          "id": "opt_basura_foto",
+          "label": "Sí, agregar foto/ubicación",
+          "next_node_id": "reportes_basura_extra"
+        },
+        {
+          "id": "opt_basura_fin",
+          "label": "No, finalizar reporte",
+          "next_node_id": "cierre_gracias"
+        }
+      ]
+    },
+    {
+      "id": "reportes_basura_extra",
+      "type": "input",
+      "message": "Podés adjuntar una foto o compartir la ubicación GPS aproximada. Cuando termines, avisame:",
+      "next_node_id": "cierre_gracias"
+    },
+    {
+      "id": "reportes_animal_herido",
+      "type": "input",
+      "message": "Indicá brevemente qué viste (tipo de animal y condición, si se puede) y la ubicación aproximada:",
+      "next_node_id": "reportes_animal_herido_respuesta"
+    },
+    {
+      "id": "reportes_animal_herido_respuesta",
+      "type": "response",
+      "message": "Gracias por tu alerta. Registré el reporte de animal herido con el número R-2025-0102. El equipo especializado será informado. ¿Querés agregar una foto o un punto en el mapa?",
+      "options": [
+        {
+          "id": "opt_animal_foto",
+          "label": "Sí, agregar foto/ubicación",
+          "next_node_id": "reportes_animal_extra"
+        },
+        {
+          "id": "opt_animal_fin",
+          "label": "No, finalizar reporte",
+          "next_node_id": "cierre_gracias"
+        }
+      ]
+    },
+    {
+      "id": "reportes_animal_extra",
+      "type": "input",
+      "message": "Adjuntá la foto o ubicá el punto aproximado en el mapa. Avisame cuando hayas terminado:",
+      "next_node_id": "cierre_gracias"
+    },
+    {
+      "id": "reportes_incendio",
+      "type": "input",
+      "message": "Tu reporte es muy importante. Describí brevemente lo que observás (humo, fuego, olor, dirección del viento) y la ubicación aproximada:",
+      "next_node_id": "reportes_incendio_respuesta"
+    },
+    {
+      "id": "reportes_incendio_respuesta",
+      "type": "response",
+      "message": "Registré tu alerta de posible incendio con el número R-2025-0103 y será priorizada por el personal de emergencia. Si estás en riesgo, alejate de la zona y seguí las indicaciones oficiales. ¿Querés saber recomendaciones básicas de seguridad?",
+      "options": [
+        {
+          "id": "opt_incendio_seguridad",
+          "label": "Sí, ver recomendaciones",
+          "next_node_id": "normas_seguridad_recomendaciones"
+        },
+        {
+          "id": "opt_incendio_fin",
+          "label": "No, finalizar reporte",
+          "next_node_id": "cierre_gracias"
+        }
+      ]
+    },
+    {
+      "id": "cierre_gracias",
+      "type": "response",
+      "message": "Gracias por usar EcoGuía 24/7 y por cuidar las áreas naturales. ¿Querés volver al inicio para seguir consultando?",
+      "options": [
+        {
+          "id": "opt_cierre_inicio",
+          "label": "Sí, volver al inicio",
+          "next_node_id": "inicio_menu"
+        },
+        {
+          "id": "opt_cierre_fin",
+          "label": "No, terminar conversación",
+          "next_node_id": "fin_conversacion"
+        }
+      ]
+    },
+    {
+      "id": "fin_conversacion",
+      "type": "end",
+      "message": "Fin de la conversación. Gracias por visitar EcoGuía 24/7."
+    }
+  ]
+}

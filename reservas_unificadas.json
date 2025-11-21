@@ -1,0 +1,1882 @@
+[
+  {
+    "nombre": "Puerto de Mar del Plata",
+    "municipio": "GENERAL PUEYRREDON",
+    "tipo": "Reserva Natural Provincial de Objetivos Definidos Mixtos Botánico, Faunístico y Educativo.",
+    "superficie_ha": 87.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Todos los días 10:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Ministerio de Ambiente PBA"
+  },
+  {
+    "nombre": "Laguna de los Padres",
+    "municipio": "GENERAL PUEYRREDON",
+    "tipo": "Reserva municipal de objetivo definido educativo",
+    "superficie_ha": 665.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Todos los días 08:00–20:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "MGP / La Capital MdP"
+  },
+  {
+    "nombre": "Bahia de  Samborombón (Sitio RAMSAR)",
+    "municipio": "MAGDALENA-PUNTA INDIO-CHASCOMÚS-CASTELLI-DOLORES-TORDILLO-GENERAL LAVALLE Y LA COSTA",
+    "tipo": "Reserva natural de objetivos definidos",
+    "superficie_ha": 18840.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (área natural amplia sin horario)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Rincón de Ajó",
+    "municipio": "TORDILLO,GENERAL LAVALLE Y LA COSTA",
+    "tipo": "Reserva natural de objetivos definidos",
+    "superficie_ha": 12590.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (reserva estricta sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Laguna Chasicó",
+    "municipio": "VILLARINO - PUAN",
+    "tipo": "Reserva Natural Provincial de Objetivos Definidos Mixtos",
+    "superficie_ha": 7800.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (acceso libre para pesca deportiva)",
+    "Costo_de_ingreso": "Gratuito (con licencia de pesca)",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Otamendi",
+    "municipio": "CAMPANA",
+    "tipo": "Sitio Ramsar. Reserva natural estricta, reserva natural silvestre y reserva natural educativa",
+    "superficie_ha": 3000.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Todos los días 09:00–18:00 (ingreso diurno)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "La Nación"
+  },
+  {
+    "nombre": "Parque nacional Campos del Tuyú",
+    "municipio": "GENERAL LAVALLE",
+    "tipo": "Reserva  natural estricta",
+    "superficie_ha": 3040.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público aún",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Argentina.gob.ar"
+  },
+  {
+    "nombre": "Costera Bahia Blanca",
+    "municipio": "BAHIA BLANCA",
+    "tipo": "Reserva municipal de objetivo educativo",
+    "superficie_ha": 319.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Sin horarios fijos (visitas guiadas ocasionales)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Aves Argentinas (consulta turismo)"
+  },
+  {
+    "nombre": "Paraná Guazú",
+    "municipio": "BARADERO",
+    "tipo": "Reserva natural  de objetivo educativo/ reserva municipal",
+    "superficie_ha": null,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (islas del delta sin acceso turístico)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Guardia del Juncal",
+    "municipio": "CAÑUELAS",
+    "tipo": "Reserva natural municipal de objetivo educativo",
+    "superficie_ha": 129.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (reserva educativa cerrada)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Pehuencó- Monte Hermoso",
+    "municipio": "CNEL ROSALES Y MONTE HERMOSO",
+    "tipo": "Reserva natural arqueológica, geológica, paleontológica y de objetivo definido",
+    "superficie_ha": 2542.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Visitas solo con guía especializada, según mareas (coordinar con Museo en Monte Hermoso)",
+    "Costo_de_ingreso": "ARS 4.000 adultos / ARS 3.000 menores (visita guiada)",
+    "Fuente": "Municipio de Monte Hermoso; Infocielo"
+  },
+  {
+    "nombre": "Ingeniero Maschwitz",
+    "municipio": "ESCOBAR",
+    "tipo": "Reserva Natural Educativa",
+    "superficie_ha": 23.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Miércoles a domingos 09:00–17:00 (cerrado lluvia)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Reserva Maschwitz (Escobar)"
+  },
+  {
+    "nombre": "Restringa del Faro",
+    "municipio": "GENERAL PUEYRREDON",
+    "tipo": "Reserva natural de objetivo geológico y faunístico",
+    "superficie_ha": 706.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Sin horarios (acceso libre a la costa, sin servicios)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Costanera sur",
+    "municipio": "GENERAL PUEYRREDÓN",
+    "tipo": "Reserva turística y  forestal",
+    "superficie_ha": 800.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Laguna de San Vicente",
+    "municipio": "SAN VICENTE",
+    "tipo": "Reserva Natural y Faunística Municipal",
+    "superficie_ha": 132.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Sin datos (posiblemente abierta días festivos locales)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Sierra del Tigre",
+    "municipio": "TANDIL",
+    "tipo": "Reserva Natural d la Flora y Fauna y Reserva natural integral",
+    "superficie_ha": 142.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "Invierno 09:30–17:30; Verano 09:00–19:00 (cerrado lluvias)",
+    "Costo_de_ingreso": "ARS 5.000 por persona (menores 10 años gratis)",
+    "Fuente": "Reserva Sierra del Tigre"
+  },
+  {
+    "nombre": "Dr. Carlos Spegazzini",
+    "municipio": "LOMAS DE ZAMORA",
+    "tipo": "Reserva botánica micológica",
+    "superficie_ha": 60.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (área de investigación)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Selva marginal de Hudson",
+    "municipio": "BERAZATEGUI",
+    "tipo": "Reserva de recursos",
+    "superficie_ha": 1200.0,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": "No abierta al público (solo investigación/educación)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "nan",
+    "municipio": "nan",
+    "tipo": "nan",
+    "superficie_ha": null,
+    "categoria": "reserva-natural-objetivo-definido",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Bahias Blanca Verde y Falsa",
+    "municipio": "BAHIA BLANCA, CORONEL ROSALES Y VILLARINO",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 254354.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Sin horarios fijos (acceso con autorización especial o excursión)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Rio Luján",
+    "municipio": "CAMPANA",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 1257.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "No abierta al público (zona protegida, sin uso recreativo)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Arroyo  Los Gauchos",
+    "municipio": "CORONEL DORREGO",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 770.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Laguna Salada Grande",
+    "municipio": "GENERAL MADARIAGA - GENERAL LAVALLE",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 5144.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Sábados, domingos y feriados 10:00–17:00",
+    "Costo_de_ingreso": "Gratuito (permiso de pesca requerido)",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Isla Martín García",
+    "municipio": "LA PLATA",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 190.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Servicio de lancha los martes, jueves, sábados, domingos y feriados (sale 08:30 h de Tigre, regresa ~20:00 h)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha pago)",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Mar Chiquita",
+    "municipio": "MAR CHIQUITA",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 9007.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Todos los días 09:00–17:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Arroyo Zabala",
+    "municipio": "NECOCHEA - SAN CAYETANO",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 1847.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bahia San Blas",
+    "municipio": "PATAGONES",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 396748.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Sin horarios (acceso libre, actividad de pesca deportiva)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Isla de Puan",
+    "municipio": "PUAN",
+    "tipo": "Reserva Natural de Uso múltile",
+    "superficie_ha": 100.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "Visitas mediante lanchas turísticas (según programación local)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha pago)",
+    "Fuente": "Turismo Puan (redes sociales locales)"
+  },
+  {
+    "nombre": "Isla Botija",
+    "municipio": "ZÁRATE",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": 681.0,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "nan",
+    "municipio": "nan",
+    "tipo": "nan",
+    "superficie_ha": null,
+    "categoria": "reserva-natural-uso-multiple",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Islote de la Gaviota Cangrejera",
+    "municipio": "BAHIA BLANCA",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 81.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público (isla protegida, acceso prohibido)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Punta Lara",
+    "municipio": "ENSENADA-BERAZATEGUI",
+    "tipo": "Reserva natural integral mixta",
+    "superficie_ha": 5579.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "Visitas solo con guía (turno previo por email; sin ingreso libre)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA; La Otra Cara"
+  },
+  {
+    "nombre": "Laguna de Rocha",
+    "municipio": "ESTABAN ECHEVERRÍA",
+    "tipo": "Reserva natural integral y mixta",
+    "superficie_ha": 1400.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público (acceso solo con permiso especial)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Ley Prov. 14.488 (creación reserva)"
+  },
+  {
+    "nombre": "Isla Laguna Alsina",
+    "municipio": "GUAMINÍ",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 50.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Delta en formación",
+    "municipio": "LA PLATA",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 30841.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bahia de  Samborombón (Sitio RAMSAR)",
+    "municipio": "MAGDALENA-PUNTA INDIO-CHASCOMÚS-CASTELLI-DOLORES-TORDILLO-GENERAL LAVALLE Y LA COSTA",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 10730.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público (área natural amplia sin horario)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Parque ecológico de la primera sección de islas del delta del Paraná",
+    "municipio": "TIGRE",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 30841.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Rincón de Ajó",
+    "municipio": "TORDILLO,GENERAL LAVALLE Y LA COSTA",
+    "tipo": "Reserva natural integral",
+    "superficie_ha": 3147.0,
+    "categoria": "reserva-natural-integral",
+    "Horarios_de_visita": "No abierta al público (reserva estricta sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Pereyra Iraola",
+    "municipio": "BERAZATEGUI",
+    "tipo": "Reserva de biósfera",
+    "superficie_ha": 10248.0,
+    "categoria": "reserva-de-biosfera",
+    "Horarios_de_visita": "Abierto lun a dom 09:00–20:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Meteored"
+  },
+  {
+    "nombre": "Parque Costero del Sur",
+    "municipio": "MAGDALENA - PUNTA INDIO",
+    "tipo": "Reserva de biósfera",
+    "superficie_ha": 23500.0,
+    "categoria": "reserva-de-biosfera",
+    "Horarios_de_visita": "Sin horarios fijos (acceso libre a senderos; visitas guiadas disponibles)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "UNESCO – RB Parque Costero Sur"
+  },
+  {
+    "nombre": "Parque Atlántico Mar Chiquito",
+    "municipio": "MAR CHIQUITA",
+    "tipo": "Reserva de biósfera",
+    "superficie_ha": 26488.0,
+    "categoria": "reserva-de-biosfera",
+    "Horarios_de_visita": "Todos los días 09:00–17:00 (Centro de visitantes)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Delta del Paraná",
+    "municipio": "SAN FERNANDO",
+    "tipo": "Reserva de biósfera",
+    "superficie_ha": 88624.0,
+    "categoria": "reserva-de-biosfera",
+    "Horarios_de_visita": "Sin horarios (región del delta habitada; excursiones privadas)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "UNESCO – RB Delta Paraná (cit. Instagram)"
+  },
+  {
+    "nombre": "nan",
+    "municipio": "nan",
+    "tipo": "nan",
+    "superficie_ha": null,
+    "categoria": "reserva-de-biosfera",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Barranca Norte",
+    "municipio": "BARADERO",
+    "tipo": "Reserva natural privada de objetivo botánico",
+    "superficie_ha": 117.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público (reserva privada sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "El Morejón",
+    "municipio": "CAMPANA",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": 135.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Paitití",
+    "municipio": "GENERAL PUEYRREDÓN",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": 220.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "El Destino",
+    "municipio": "MAGDALENA",
+    "tipo": "Reserva Natural Privada de Objetivo Educativo y Botánico",
+    "superficie_ha": 2500.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "Mar–Nov: todos los días 08:00–18:00 (miércoles cerrado); Dic–Feb: todos los días 08:00–20:00",
+    "Costo_de_ingreso": "ARS 6.000 entrada por persona; camping ARS 12.000; actividades extra desde ARS 6.000",
+    "Fuente": "Infocielo; Sitio oficial"
+  },
+  {
+    "nombre": "Nahuel Ruca",
+    "municipio": "MAR CHIQUITA",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": 390.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público (campo privado)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Arroyo Durazno",
+    "municipio": "MARCOS PAZ",
+    "tipo": "Reserva natural privada de objetivo educativo",
+    "superficie_ha": 514.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "La Amanda",
+    "municipio": "PUNTA INDIO",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": null,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Punta Indio",
+    "municipio": "PUNTA INDIO",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": 700.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Las Piedras",
+    "municipio": "SAAVEDRA",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": 400.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Santuario natural del Cauquén Colorado",
+    "municipio": "SAN CAYETANO",
+    "tipo": "Reserva privada",
+    "superficie_ha": 100.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público (área protegida de uso científico)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Che Roga",
+    "municipio": "SAN FERNANDO",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": 100.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Sendero Pampa",
+    "municipio": "TANDIL",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": 6.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "Visitas educativas programadas (consultar universidad)",
+    "Costo_de_ingreso": "Gratuito (actividades educativas)",
+    "Fuente": "UNICEN"
+  },
+  {
+    "nombre": "Sierras Grandes",
+    "municipio": "TORNQUIST",
+    "tipo": "Reserva natural privada educativa y botánica",
+    "superficie_ha": 2742.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público (acceso solo con autorización)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA (reg. OPDS)"
+  },
+  {
+    "nombre": "Delta Terra",
+    "municipio": "TIGRE",
+    "tipo": "Paisaje protegido",
+    "superficie_ha": 40.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "Sábados, domingos y feriados 10:00–17:30 (abre fines de semana)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha con costo)",
+    "Fuente": "Fundación Azara"
+  },
+  {
+    "nombre": "Achalay",
+    "municipio": "TIGRE",
+    "tipo": "Reserva natural",
+    "superficie_ha": 150.0,
+    "categoria": "reserva-natural-privada",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Laguna Epecuén",
+    "municipio": "ADOLFO ALSINA",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 18000.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Abierto todos los días (acceso libre, ruinas al aire libre)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (ref. Magdalena, sim.)"
+  },
+  {
+    "nombre": "La Saladita",
+    "municipio": "AVELLANEDA",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 22.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Sin datos (proyecto de reserva en humedal, sin acceso formal)",
+    "Costo_de_ingreso": "–",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Parque del este",
+    "municipio": "BARADERO",
+    "tipo": "Reserva municipal",
+    "superficie_ha": 13.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Abierto todos los días (espacio público)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (contexto Baradero)"
+  },
+  {
+    "nombre": "Punta Rasa",
+    "municipio": "LA COSTA",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 522.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Acceso libre todos los días (24h, salvo restricciones Prefectura)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "El Día (contexto Punta Rasa)"
+  },
+  {
+    "nombre": "Parque ecológico",
+    "municipio": "LA PLATA",
+    "tipo": "Parque Ecológico municipal La Plata",
+    "superficie_ha": 206.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Santa Catalina",
+    "municipio": "LOMAS DE ZAMORA",
+    "tipo": "Reserva municipal",
+    "superficie_ha": 16.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "No abierta al público (predio de reserva educativa)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Quinta de Cigordia",
+    "municipio": "LUJÁN",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 15.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Todos los días 08:00–19:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "BuenosAires123"
+  },
+  {
+    "nombre": "Del Pilar",
+    "municipio": "PILAR",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 297.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Todos los días 09:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Reserva Pilar (Facebook)"
+  },
+  {
+    "nombre": "Bajo de Bordenave",
+    "municipio": "PUAN",
+    "tipo": "Reserva educativa municipal",
+    "superficie_ha": 5.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Selva Marginal quilmeña",
+    "municipio": "QUIMES",
+    "tipo": "Parque Natural y Reserva Ecológica Municipal",
+    "superficie_ha": 150.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "No abierta libremente (recorridas guiadas esporádicas)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Ramallo",
+    "municipio": "RAMALLO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 16.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Sin datos (espacio natural sin infraestructura)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Ribera Norte",
+    "municipio": "SAN ISIDRO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 50.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Lunes a viernes 09:00–17:00; sábados, domingos 09:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. San Isidro"
+  },
+  {
+    "nombre": "Barranca de la Quinta Los Ombues",
+    "municipio": "SAN ISIDRO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Martes a domingos 13:00–19:00 (horario de museo histórico)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. San Isidro (Facebook)"
+  },
+  {
+    "nombre": "Barranca de la Quinta Pueyrredon",
+    "municipio": "SAN ISIDRO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 1.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Martes a domingos 10:00–18:00 (horario de parque/museo)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "San Isidro Cultura (sitio oficial, horario museos)"
+  },
+  {
+    "nombre": "Rafael de Aguiar",
+    "municipio": "SAN NICOLÁS",
+    "tipo": "Parque Urbana Natural Municipal",
+    "superficie_ha": 1500.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Abierto todo el año (acceso público sin restricción horaria)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Clarín (puesta en valor recreativa)"
+  },
+  {
+    "nombre": "Vuelta de Obligado",
+    "municipio": "SAN PEDRO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 9.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Todos los días 09:00–18:00 (aprox., horario diurno)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (mención circuito)"
+  },
+  {
+    "nombre": "Claromecó",
+    "municipio": "TRES ARROYOS",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 1100.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Faro Querandí",
+    "municipio": "VILLA GESELL",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": 5757.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "La salada",
+    "municipio": "VILLARINO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": "Sin datos (proyecto de reserva en humedal, sin acceso formal)",
+    "Costo_de_ingreso": "–",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bosque Escondido",
+    "municipio": "VILLARINO",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Parque lacunario General San Martín",
+    "municipio": "BRAGADO",
+    "tipo": "Reserva Histórica Natural municipal",
+    "superficie_ha": 320.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Vivero Dunícola Florentino Ameghino",
+    "municipio": "GENERAL ALVARADO",
+    "tipo": "Reserva Natural",
+    "superficie_ha": 502.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Rio Reconquista de Ituzaingó",
+    "municipio": "ITUZAINGO",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": 27.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Ciudad Evita",
+    "municipio": "LA MATANZA",
+    "tipo": "Reeva  Natural y Área ecologicamente Protegida",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Parque Plaza Montero",
+    "municipio": "LAS FLORES",
+    "tipo": "Reserva Natural Urbana y Refugio de Vida Silvestre",
+    "superficie_ha": 29.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Arenas Verdes",
+    "municipio": "LOBERÍA",
+    "tipo": "Paisaje protegido de interés provincial",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Dique Ing. Roggero",
+    "municipio": "MORENO",
+    "tipo": "Area natural protegida",
+    "superficie_ha": 1000.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Morón",
+    "municipio": "MORÓN",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Ex Batallon Viejobueno",
+    "municipio": "QUIMES",
+    "tipo": "Reserva Ecológica y Área de Protección Ambiental",
+    "superficie_ha": 40.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Ricardo Güiraldes",
+    "municipio": "SAN ANTONIO DE ARECO",
+    "tipo": "reserva Natural urbana, Parque criollo y Museo Gauchesco",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Bosque Alegre",
+    "municipio": "SAN ISIDRO",
+    "tipo": "Paisaje Protegido",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Islas de San Isidro",
+    "municipio": "SAN ISIDRO",
+    "tipo": "Paisaje Protegido",
+    "superficie_ha": 180.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "El Corredor",
+    "municipio": "SAN MIGUEL",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Vicente López",
+    "municipio": "VICENTE LÓPEZ",
+    "tipo": "Reserva Ecológica",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Zárate",
+    "municipio": "ZÁRATE",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": 63.0,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "nan",
+    "municipio": "nan",
+    "tipo": "nan",
+    "superficie_ha": null,
+    "categoria": "reserva-municipal",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Campo Mar Chiquita Dragones de Malvinas",
+    "municipio": "MAR CHIQUITA",
+    "tipo": "Reserva natural de defensa",
+    "superficie_ha": 1753.0,
+    "categoria": "reserva-natural-de-defensa",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Baterías  Charles Darwin",
+    "municipio": "BAHIA BLANCA",
+    "tipo": "Reserva natural de defensa",
+    "superficie_ha": 1000.0,
+    "categoria": "reserva-natural-de-defensa",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Faro Querandí",
+    "municipio": "VILLA GESELL",
+    "tipo": "Reserva natural de defensa",
+    "superficie_ha": 44.0,
+    "categoria": "reserva-natural-de-defensa",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "nan",
+    "municipio": "nan",
+    "tipo": "nan",
+    "superficie_ha": null,
+    "categoria": "reserva-natural-de-defensa",
+    "Horarios_de_visita": null,
+    "Costo_de_ingreso": null,
+    "Fuente": null
+  },
+  {
+    "nombre": "Puerto de Mar del Plata",
+    "municipio": "Dársenas del Puerto de Mar del Plata, Partido de Gral. Pueyrredón",
+    "tipo": "Reserva natural de objetivo definido",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 10:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Ministerio de Ambiente PBA"
+  },
+  {
+    "nombre": "Laguna de los Padres",
+    "municipio": "A 12 km al oeste de la ciudad de Mar del Plata, Pdo. Gral. Pueyrredón",
+    "tipo": "Reserva natural de objetivo definido",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 08:00–20:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "MGP / La Capital MdP"
+  },
+  {
+    "nombre": "Bahía de Samborombón (Sitio RAMSAR)",
+    "municipio": "Costa estuarina desde Magdalena hasta Gral. Lavalle (varios partidos)",
+    "tipo": "Reserva natural de objetivos definidos",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (área natural amplia sin horario)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Rincón de Ajó",
+    "municipio": "Zona costera en Punta Rasa (Gral. Lavalle/La Costa)",
+    "tipo": "Reserva natural de objetivos definidos",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (reserva estricta sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Laguna Chasicó",
+    "municipio": "Laguna Chasicó, límite partidos Villarino–Puan (sudoeste bonaerense)",
+    "tipo": "Reserva natural de objetivos definidos",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (acceso libre para pesca deportiva)",
+    "Costo_de_ingreso": "Gratuito (con licencia de pesca)",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Otamendi",
+    "municipio": "Campana (refugio de Vida Silvestre Nac. Otamendi, km 66 RN9)",
+    "tipo": "Sitio Ramsar – Reserva natural estrícta (APN)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 09:00–18:00 (ingreso diurno)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "La Nación"
+  },
+  {
+    "nombre": "Parque Nacional Campos del Tuyú",
+    "municipio": "Monte de Trigo, Partido de Gral. Lavalle (Bahía Samborombón)",
+    "tipo": "Reserva natural estricta (APN)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público aún",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Argentina.gob.ar"
+  },
+  {
+    "nombre": "Costera Bahía Blanca",
+    "municipio": "Balneario Maldonado, Bahía Blanca (costa estuario)",
+    "tipo": "Reserva natural de objetivo educativo (munic.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios fijos (visitas guiadas ocasionales)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Aves Argentinas (consulta turismo)"
+  },
+  {
+    "nombre": "Paraná Guazú",
+    "municipio": "Islas del río Paraná Guazú, Partido de Baradero",
+    "tipo": "Reserva natural de objetivo educativo (munic.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (islas del delta sin acceso turístico)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Listado oficial"
+  },
+  {
+    "nombre": "Guardia del Juncal",
+    "municipio": "Zona rural de Uribelarrea, Partido de Cañuelas",
+    "tipo": "Reserva natural municipal (educativa)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (reserva educativa cerrada)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Pehuen-Co – Monte Hermoso",
+    "municipio": "Costa entre Balneario Pehuen Co (Cnel. Rosales) y Monte Hermoso",
+    "tipo": "Reserva natural arqueológica/paleont.",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Visitas solo con guía especializada, según mareas (coordinar con Museo en Monte Hermoso)",
+    "Costo_de_ingreso": "ARS 4.000 adultos / ARS 3.000 menores (visita guiada)",
+    "Fuente": "Municipio de Monte Hermoso; Infocielo"
+  },
+  {
+    "nombre": "Ingeniero Maschwitz",
+    "municipio": "Sucre 1550 (esq. Obligado), Ing. Maschwitz, Pdo. Escobar",
+    "tipo": "Reserva Natural Educativa (munic.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Miércoles a domingos 09:00–17:00 (cerrado lluvia)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Reserva Maschwitz (Escobar)"
+  },
+  {
+    "nombre": "Restinga del Faro",
+    "municipio": "Costa rocosa junto al Faro Punta Mogotes, Mar del Plata (Pdo. Gral. Pueyrredón)",
+    "tipo": "Reserva natural geológica/faunística",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios (acceso libre a la costa, sin servicios)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Costanera Sur (Mar del Plata)",
+    "municipio": "Sector sur costero de Mar del Plata (bosque de Peralta Ramos)",
+    "tipo": "Reserva turística y forestal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios (área pública, acceso libre)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Laguna de San Vicente",
+    "municipio": "Laguna en San Vicente (Partido de San Vicente)",
+    "tipo": "Reserva natural/faunística municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (posiblemente abierta días festivos locales)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Sierra del Tigre (Tandil)",
+    "municipio": "Tandil (sierra sur de la ciudad, acceso por calle Suiza)",
+    "tipo": "Reserva Natural de Flora y Fauna (priv.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Invierno 09:30–17:30; Verano 09:00–19:00 (cerrado lluvias)",
+    "Costo_de_ingreso": "ARS 5.000 por persona (menores 10 años gratis)",
+    "Fuente": "Reserva Sierra del Tigre"
+  },
+  {
+    "nombre": "Dr. Carlos Spegazzini",
+    "municipio": "Estación Santa Catalina, Lomas de Zamora",
+    "tipo": "Reserva botánica micológica",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (área de investigación)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Selva Marginal de Hudson",
+    "municipio": "Ribera del Río de la Plata en Hudson, Pdo. Berazategui",
+    "tipo": "Reserva de recursos naturales",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (solo investigación/educación)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bahías Blanca, Falsa y Verde",
+    "municipio": "Estuario de Bahía Blanca (Partidos Villarino, Bahía Blanca, Cnel. Rosales)",
+    "tipo": "Reserva natural de uso múltiple (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios fijos (acceso con autorización especial o excursión)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Río Luján (Campana)",
+    "municipio": "Ribera del Río Luján, Partido de Campana",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (zona protegida, sin uso recreativo)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Arroyo Los Gauchos",
+    "municipio": "Bañados del Arroyo Los Gauchos, Partido de Cnel. Dorrego",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Laguna Salada Grande",
+    "municipio": "Laguna Salada Grande (Partidos Gral. Madariaga y Gral. Lavalle)",
+    "tipo": "Reserva natural de uso múltiple (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sábados, domingos y feriados 10:00–17:00",
+    "Costo_de_ingreso": "Gratuito (permiso de pesca requerido)",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Isla Martín García",
+    "municipio": "Isla Martín García, Río de la Plata (jurisd. La Plata)",
+    "tipo": "Reserva de biosfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Servicio de lancha los martes, jueves, sábados, domingos y feriados (sale 08:30 h de Tigre, regresa ~20:00 h)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha pago)",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Mar Chiquita (Laguna)",
+    "municipio": "Balneario Parque Mar Chiquita, Partido de Mar Chiquita",
+    "tipo": "Reserva de biosfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 09:00–17:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Arroyo Zabala",
+    "municipio": "Costa atlántica entre Necochea y San Cayetano (sector Arroyo Zabala)",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bahía San Blas",
+    "municipio": "Bahía San Blas, Partido de Patagones",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios (acceso libre, actividad de pesca deportiva)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Isla de Puan",
+    "municipio": "Isla en la Laguna de Puan, Partido de Puan",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Visitas mediante lanchas turísticas (según programación local)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha pago)",
+    "Fuente": "Turismo Puan (redes sociales locales)"
+  },
+  {
+    "nombre": "Isla Botija",
+    "municipio": "Isla “Botija” en el Delta del Paraná, Partido de Zárate",
+    "tipo": "Reserva natural de uso múltiple",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Islote de la Gaviota Cangrejera",
+    "municipio": "Islote en la ría de Bahía Blanca, Pdo. Bahía Blanca",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (isla protegida, acceso prohibido)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Punta Lara",
+    "municipio": "Punta Lara, partidos de Ensenada y Berazategui",
+    "tipo": "Reserva natural integral mixta (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Visitas solo con guía (turno previo por email; sin ingreso libre)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA; La Otra Cara"
+  },
+  {
+    "nombre": "Laguna de Rocha",
+    "municipio": "Esteban Echeverría (Laguna de Rocha, Monte Grande)",
+    "tipo": "Reserva natural integral mixta (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (acceso solo con permiso especial)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Ley Prov. 14.488 (creación reserva)"
+  },
+  {
+    "nombre": "Isla Laguna Alsina",
+    "municipio": "Isla en Laguna Alsina, Partido de Guaminí",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Delta en formación (Islas de La Plata)",
+    "municipio": "Delta en formación en Río de la Plata, frente a La Plata",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bahía de Samborombón (núcleo)",
+    "municipio": "Sectores de máxima protección en Bahía Samborombón (varios partidos)",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "OPDS – Sitio RAMSAR"
+  },
+  {
+    "nombre": "Parque ecológico Islas 1ª Sección (Delta)",
+    "municipio": "Delta del Paraná, Primera Sección de islas (Partido de Tigre)",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (uso científico/educativo)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Rincón de Ajó (núcleo)",
+    "municipio": "Punta Rasa – Rincón de Ajó (partidos Tordillo, Gral. Lavalle, La Costa)",
+    "tipo": "Reserva natural integral (prov.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (reserva estricta sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Pereyra Iraola",
+    "municipio": "Parque Pereyra Iraola (Berazategui/Ensenada/La Plata)",
+    "tipo": "Reserva de Biósfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto lun a dom 09:00–20:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Meteored"
+  },
+  {
+    "nombre": "Parque Costero del Sur",
+    "municipio": "Costa del Río de la Plata entre Punta Indio y Magdalena",
+    "tipo": "Reserva de Biósfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios fijos (acceso libre a senderos; visitas guiadas disponibles)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "UNESCO – RB Parque Costero Sur"
+  },
+  {
+    "nombre": "Parque Atlántico Mar Chiquito",
+    "municipio": "Balneario Mar Chiquita, Partido de Mar Chiquita",
+    "tipo": "Reserva de Biósfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 09:00–17:00 (Centro de visitantes)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "Delta del Paraná (RB)",
+    "municipio": "Delta del Paraná (islas de Tigre, San Fernando, etc.)",
+    "tipo": "Reserva de Biósfera (UNESCO)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin horarios (región del delta habitada; excursiones privadas)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "UNESCO – RB Delta Paraná (cit. Instagram)"
+  },
+  {
+    "nombre": "Barranca Norte",
+    "municipio": "A 12 km al este de Baradero (Barrancas del Paraná, Pdo. Baradero)",
+    "tipo": "Reserva natural privada (botánica)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (reserva privada sin visitas)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA"
+  },
+  {
+    "nombre": "El Morejón",
+    "municipio": "Campana (zona islas del Paraná de Campana)",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Paitití",
+    "municipio": "Sierra de los Padres, Mar del Plata (Pdo. Gral. Pueyrredón)",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "El Destino",
+    "municipio": "RP 11 km 17 al sur de Magdalena, Pdo. Magdalena",
+    "tipo": "Reserva Nat. Privada (Educ. y Botánica)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Mar–Nov: todos los días 08:00–18:00 (miércoles cerrado); Dic–Feb: todos los días 08:00–20:00",
+    "Costo_de_ingreso": "ARS 6.000 entrada por persona; camping ARS 12.000; actividades extra desde ARS 6.000",
+    "Fuente": "Infocielo; Sitio oficial"
+  },
+  {
+    "nombre": "Nahuel Rucá",
+    "municipio": "Laguna Nahuel Rucá, Partido de Mar Chiquita",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (campo privado)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Arroyo Durazno",
+    "municipio": "Marcos Paz (zona Arroyo Durazno, Pdo. Marcos Paz)",
+    "tipo": "Reserva natural privada (educativa)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "La Amanda",
+    "municipio": "Punta Indio (zona rural), Partido de Punta Indio",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Punta Indio (Estancia)",
+    "municipio": "Punta Indio (área rural costera, Pdo. Punta Indio)",
+    "tipo": "Reserva natural privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Las Piedras",
+    "municipio": "Sierras de Saavedra (Partido de Saavedra)",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Santuario del Cauquén Colorado",
+    "municipio": "San Cayetano (costa atlántica), Partido de San Cayetano",
+    "tipo": "Reserva privada (faunística)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (área protegida de uso científico)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Che Roga",
+    "municipio": "Delta del Paraná, Partido de San Fernando",
+    "tipo": "Reserva Natural Privada",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Sendero Pampa",
+    "municipio": "Campus Univ. del Centro (UNICEN), Tandil",
+    "tipo": "Reserva Natural Privada (UNCPBA)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Visitas educativas programadas (consultar universidad)",
+    "Costo_de_ingreso": "Gratuito (actividades educativas)",
+    "Fuente": "UNICEN"
+  },
+  {
+    "nombre": "Sierras Grandes",
+    "municipio": "Sierras de Tornquist (establecimiento privado), Pdo. Tornquist",
+    "tipo": "Reserva natural privada (educ. y botánica)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (acceso solo con autorización)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Min. Ambiente PBA (reg. OPDS)"
+  },
+  {
+    "nombre": "Delta Terra",
+    "municipio": "Arroyo Rama Negra Chico, Delta de Tigre (1ª Sección de islas)",
+    "tipo": "Paisaje protegido (Reserva privada)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sábados, domingos y feriados 10:00–17:30 (abre fines de semana)",
+    "Costo_de_ingreso": "Gratuito (traslado en lancha con costo)",
+    "Fuente": "Fundación Azara"
+  },
+  {
+    "nombre": "Achalay",
+    "municipio": "Delta del Paraná, Partido de Tigre",
+    "tipo": "Reserva natural (privada)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Laguna Epecuén",
+    "municipio": "Ruinas de Villa Epecuén, Partido de Adolfo Alsina",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto todos los días (acceso libre, ruinas al aire libre)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (ref. Magdalena, sim.)"
+  },
+  {
+    "nombre": "La Saladita",
+    "municipio": "Villa Domínico, Partido de Avellaneda",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (proyecto de reserva en humedal, sin acceso formal)",
+    "Costo_de_ingreso": "–",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Parque del Este",
+    "municipio": "Costanera de Baradero, Partido de Baradero",
+    "tipo": "Reserva municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto todos los días (espacio público)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (contexto Baradero)"
+  },
+  {
+    "nombre": "Punta Rasa",
+    "municipio": "Punta Rasa, San Clemente (Partido de La Costa)",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Acceso libre todos los días (24h, salvo restricciones Prefectura)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "El Día (contexto Punta Rasa)"
+  },
+  {
+    "nombre": "Parque Ecológico Municipal (La Plata)",
+    "municipio": "Camino Centenario y 426, Villa Elisa, Partido de La Plata",
+    "tipo": "Parque Ecológico municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Lunes a domingo 09:00–19:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "MLP / Facebook"
+  },
+  {
+    "nombre": "Santa Catalina",
+    "municipio": "Santa Catalina (Luis Guillón), Partido de Lomas de Zamora",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (predio de reserva educativa)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Quinta de Cigordia",
+    "municipio": "Barrio La Loma, ciudad de Luján (a 5 cuadras de la Basílica)",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 08:00–19:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "BuenosAires123"
+  },
+  {
+    "nombre": "Del Pilar",
+    "municipio": "Partido de Pilar (ribera del Río Luján, km 58 Acceso Norte)",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 09:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Reserva Pilar (Facebook)"
+  },
+  {
+    "nombre": "Bajo de Bordenave",
+    "municipio": "Bordenave (Partido de Puan) – humedal local",
+    "tipo": "Reserva educativa municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Selva Marginal Quilmeña",
+    "municipio": "Ribera de Quilmes, Partido de Quilmes",
+    "tipo": "Parque Natural y Reserva Ecológica (munic.)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta libremente (recorridas guiadas esporádicas)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Ramallo",
+    "municipio": "Costa del río Paraná en Villa Ramallo, Partido de Ramallo",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (espacio natural sin infraestructura)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Ribera Norte (San Isidro)",
+    "municipio": "Camino de la Ribera 480, Acassuso, Partido de San Isidro",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Lunes a viernes 09:00–17:00; sábados, domingos 09:00–18:00",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. San Isidro"
+  },
+  {
+    "nombre": "Barranca de Los Ombúes",
+    "municipio": "Quinta Los Ombúes (Museo Beccar Varela), San Isidro",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Martes a domingos 13:00–19:00 (horario de museo histórico)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. San Isidro (Facebook)"
+  },
+  {
+    "nombre": "Barranca de la Quinta Pueyrredón",
+    "municipio": "Quinta Pueyrredón (Museo Pueyrredón), San Isidro",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Martes a domingos 10:00–18:00 (horario de parque/museo)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "San Isidro Cultura (sitio oficial, horario museos)"
+  },
+  {
+    "nombre": "Rafael de Aguiar (San Nicolás)",
+    "municipio": "Ribera del Río Paraná, 12 km NE de San Nicolás (Pdo. San Nicolás)",
+    "tipo": "Parque Natural Urbano (municipal)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto todo el año (acceso público sin restricción horaria)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Clarín (puesta en valor recreativa)"
+  },
+  {
+    "nombre": "Vuelta de Obligado",
+    "municipio": "Vuelta de Obligado, San Pedro (sobre río Paraná)",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 09:00–18:00 (aprox., horario diurno)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Turismo PBA (mención circuito)"
+  },
+  {
+    "nombre": "Claromecó",
+    "municipio": "Balneario Claromecó y dunas adyacentes, Pdo. Tres Arroyos",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Acceso libre permanente (playas y bosques sin cercado)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Municipalidad Tres Arroyos (turismo local)"
+  },
+  {
+    "nombre": "Faro Querandí (Gesell)",
+    "municipio": "Médanos del Faro Querandí, 5 km al sur de Mar Azul (Pdo. Villa Gesell)",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Acceso libre permanente (requiere vehículo 4x4 por arena)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Sec. Turismo Villa Gesell (informes locales)"
+  },
+  {
+    "nombre": "La Salada (Villarino)",
+    "municipio": "Laguna La Salada, Partido de Villarino",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (posible acceso de pescadores local)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Bosque Escondido (Villarino)",
+    "municipio": "Bosque de caldenes en Pedro Luro, Partido de Villarino",
+    "tipo": "Reserva natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (sector protegido sin infraestructura)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Parque Lacunario Gral. San Martín (Bragado)",
+    "municipio": "Laguna de Bragado (Parque Gral. San Martín), Pdo. Bragado",
+    "tipo": "Reserva histórica natural municipal",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto todo el año (parque público)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Municipio de Bragado (turismo local)"
+  },
+  {
+    "nombre": "Vivero Dunícola F. Ameghino (Miramar)",
+    "municipio": "Vivero Dunícola, Miramar, Pdo. Gral. Alvarado",
+    "tipo": "Reserva natural (paisaje protegido)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 08:00–20:00 (aprox., parque forestal abierto)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. Gral. Alvarado (ref. simil. abiertos)"
+  },
+  {
+    "nombre": "Río Reconquista (Ituzaingó)",
+    "municipio": "Ribera del Río Reconquista, Partido de Ituzaingó",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (abierta durante eventos de educación ambiental)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Municipio Ituzaingó (programas ambientales)"
+  },
+  {
+    "nombre": "Ciudad Evita (La Matanza)",
+    "municipio": "Ciudad Evita, Partido de La Matanza",
+    "tipo": "Reserva Natural y Área Protegida",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (sector protegido periurbano)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "Parque Plaza Montero (Las Flores)",
+    "municipio": "Laguna del Parque Plaza Montero, Las Flores",
+    "tipo": "Reserva Natural Urbana y Refugio",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Abierto todos los días (parque urbano público)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Municipio de Las Flores (turismo)"
+  },
+  {
+    "nombre": "Arenas Verdes (Lobería)",
+    "municipio": "Balneario Arenas Verdes, Partido de Lobería",
+    "tipo": "Paisaje protegido de interés provincial",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Acceso libre permanente (playa y médanos abiertos)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Municipalidad de Lobería (turismo)"
+  },
+  {
+    "nombre": "Dique Ing. Roggero (“Los Robles”)",
+    "municipio": "Dique Roggero, Cuenca Reconquista (Partido de Moreno)",
+    "tipo": "Área natural protegida (municipal)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Todos los días 08:00–18:00 (aprox., parque “Los Robles”)",
+    "Costo_de_ingreso": "Gratuito (estac. vehículo pago modesto)",
+    "Fuente": "Municipio de Moreno (Ambiente)"
+  },
+  {
+    "nombre": "Morón (Reserva Urbana)",
+    "municipio": "Barrio Pontevedra, Partido de Morón",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (acceso controlado por visitas guiadas)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. Morón (Agenda Ambiental)"
+  },
+  {
+    "nombre": "Ex Batallón Viejo Bueno (Quilmes)",
+    "municipio": "Ex Batallón “Viejo Bueno”, Quilmes (Ezpeleta)",
+    "tipo": "Reserva Ecológica y Área Protec. Amb.",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (predio militar reconvertido)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "Diario5dias (Quilmes, noticia creación)"
+  },
+  {
+    "nombre": "Ricardo Güiraldes (Areco)",
+    "municipio": "Villa Lía, Pdo. San Antonio de Areco (zona Parque Criollo)",
+    "tipo": "Reserva Natural Urbana / Parque Criollo",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (posible acceso con horario museo gauchesco)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. Areco (Turismo cultural)"
+  },
+  {
+    "nombre": "Bosque Alegre (San Isidro)",
+    "municipio": "Barranca del Bosque Alegre, Barrio Santa Rita, San Isidro",
+    "tipo": "Paisaje Protegido (municipal)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (acceso limitado por propiedad privada/club)",
+    "Costo_de_ingreso": "–",
+    "Fuente": "San Isidro (Patrimonio local)"
+  },
+  {
+    "nombre": "Islas de San Isidro",
+    "municipio": "Islas del Delta frente a San Isidro (Río de la Plata)",
+    "tipo": "Paisaje Protegido (municipal)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "No abierta al público (islas sin desarrollo turístico)",
+    "Costo_de_ingreso": "No corresponde",
+    "Fuente": "–"
+  },
+  {
+    "nombre": "El Corredor (San Miguel)",
+    "municipio": "Barrio El Corredor, Partido de San Miguel",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (área verde urbana con senderos)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. San Miguel (Medio Ambiente)"
+  },
+  {
+    "nombre": "Vicente López (Reserva Ecológica)",
+    "municipio": "Costa de Vicente López (Parque Natural Ribera VL)",
+    "tipo": "Reserva Ecológica (municipal)",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Martes a domingos 09:30–18:00 (lun cerrado)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "GCBA (Reserva Ribera, ref.)"
+  },
+  {
+    "nombre": "Zárate (Reserva Natural Urbana)",
+    "municipio": "Ribera del Paraná de las Palmas, Partido de Zárate",
+    "tipo": "Reserva Natural Urbana",
+    "superficie_ha": null,
+    "categoria": "reservas_info",
+    "Horarios_de_visita": "Sin datos (acceso libre a espacios costeros sin control)",
+    "Costo_de_ingreso": "Gratuito",
+    "Fuente": "Mun. Zárate (ecología, sin detalle público)"
+  }
+]
