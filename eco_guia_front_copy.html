@@ -222,16 +222,17 @@
       color: rgba(7, 34, 15, 0.55);
       opacity: 1; /* ensure visibility across browsers */
     }
+    .theme-light .text-input:focus {
+      background: #ffffff;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(102, 209, 122, 0.2);
+      color: var(--text-main);
+    }
 
     /* Ensure the input area background and chips change in light mode */
     .theme-light .input-area {
-      background: linear-gradient(180deg, #ffffff, #f7fff8);
-      border-top-color: rgba(110,200,140,0.12);
-    }
-
-    .theme-light .input-row {
-      gap: 10px;
-      align-items: center;
+      background: #ffffff;
+      border-top-color: rgba(110, 200, 140, 0.2);
     }
 
     .theme-light .chips-row {
@@ -367,6 +368,11 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
+    }
+
+    .theme-light .input-area {
+      background: #ffffff;
+      border-top-color: rgba(110, 200, 140, 0.2);
     }
 
     .input-row {
