@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoGuía 24/7 Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg-dark: #0b1f16;
+      --bg-card: #10251b;
+      --accent: #4caf50;
+      --accent-soft: rgba(76, 175, 80, 0.15);
+      --accent-strong: #2f8f46;
+      --text-main: #f5fdf6;
+      --text-muted: #c4d9c7;
+      --user-bubble: #1f3b2b;
+      --bot-bubble: #163524;
+      --border-soft: #244331;
+      --error: #f44336;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at top, #294a30 0%, #0b1f16 40%, #020806 100%);
+      color: var(--text-main);
+    }
+
+    .page-wrap {
+      width: 100%;
+      max-width: 960px;
+      padding: 16px;
+      /* Fixed viewport-based height so the app doesn't grow indefinitely */
+      height: 80vh;
+      max-height: 880px;
+    }
+
+    .app-shell {
+      background: linear-gradient(135deg, rgba(10, 35, 22, 0.95), rgba(7, 22, 18, 0.98));
+      border-radius: 20px;
+      border: 1px solid rgba(110, 231, 183, 0.15);
+      box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.65),
+        0 0 40px rgba(56, 142, 60, 0.15);
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 0;
+      overflow: hidden;
+      /* fill the page-wrap height so child panels can scroll properly */
+      height: 100%;
+    }
+
+    @media (max-width: 800px) {
+      .app-shell {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .right-panel {
+        display: none;
+      }
+    }
+
+    .left-panel {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid rgba(255, 255, 255, 0.04);
+      /* allow children to shrink so .chat-area can scroll inside */
+      min-height: 0;
+    }
+
+    .right-panel {
+      background: radial-gradient(circle at 10% 0, #204532 0%, #091510 35%, #030806 100%);
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      min-height: 0;
+    }
+
+    .header {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: linear-gradient(90deg, rgba(39, 76, 52, 0.85), rgba(9, 32, 21, 0.95));
+    }
+
+    .logo-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 30% 0, #4caf50 0%, #1b5e20 60%, #0d2b18 100%);
+      box-shadow: 0 0 12px rgba(129, 199, 132, 0.6);
+      flex-shrink: 0;
+    }
+
+    .logo-circle span {
+      font-size: 20px;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .header-title {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .header-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .status-pill {
+      margin-left: auto;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border: 1px solid rgba(129, 199, 132, 0.5);
+      color: #a5d6a7;
+      background: rgba(13, 71, 34, 0.7);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Theme: light (modo claro) overrides */
+    .theme-light {
+      --bg-dark: #f4fff8;
+      --bg-card: #f7fff5;
+      --accent: #66d17a;
+      --accent-soft: rgba(102, 209, 122, 0.15);
+      --accent-strong: #3fb65a;
+      --text-main: #07220f;
+      --text-muted: #37644a;
+      --user-bubble: #e9f7ef;
+      --bot-bubble: #e0f4e6;
+      --border-soft: #cfebd7;
+      --bg-gradient-top: radial-gradient(circle at top, #eafbea 0%, #f4fff8 40%, #ffffff 100%);
+    }
+
+    /* Apply the light theme to concrete elements so everything changes */
+    .theme-light body {
+      background: var(--bg-gradient-top);
+      color: var(--text-main);
+    }
+
+    .theme-light .app-shell {
+      background: linear-gradient(135deg, rgba(245,253,244,0.9), rgba(240, 255, 247, 0.95));
+      border-color: rgba(100, 200, 140, 0.25);
+    }
+
+    .theme-light .header {
+      background: linear-gradient(90deg, rgba(220,250,230,0.9), rgba(240,255,245,0.95));
+      color: var(--text-main);
+      border-bottom-color: rgba(100,200,140,0.15);
+    }
+
+    .theme-light .header-title,
+    .theme-light .header-subtitle,
+    .theme-light .panel-title,
+    .theme-light .panel-subtitle,
+    .theme-light .system-line,
+    .theme-light .footnote {
+      color: var(--text-main);
+    }
+
+    .theme-light .status-pill {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #063b1d;
+    }
+
+    .theme-light .left-panel,
+    .theme-light .right-panel {
+      background: transparent;
+    }
+
+    .theme-light .chat-area {
+      background: transparent;
+    }
+
+    .theme-light .bubble.bot {
+      background: var(--bot-bubble);
+      border-color: var(--border-soft);
+      color: var(--text-main);
+    }
+
+    .theme-light .bubble.user {
+      background: var(--user-bubble);
+      border-color: rgba(100,200,140,0.4);
+      color: var(--text-main);
+    }
+
+    .theme-light .text-input {
+      background: #fbfffa;
+      color: var(--text-main);
+      border-color: rgba(120, 200, 140, 0.6);
+    }
+    .theme-light .text-input::placeholder {
+      color: rgba(7, 34, 15, 0.55);
+      opacity: 1; /* ensure visibility across browsers */
+    }
+
+    /* Ensure the input area background and chips change in light mode */
+    .theme-light .input-area {
+      background: linear-gradient(180deg, #ffffff, #f7fff8);
+      border-top-color: rgba(110,200,140,0.12);
+    }
+
+    .theme-light .input-row {
+      gap: 10px;
+      align-items: center;
+    }
+
+    .theme-light .chips-row {
+      background: transparent;
+      padding-top: 6px;
+    }
+
+    .theme-light .option-chip {
+      box-shadow: none;
+    }
+
+    .theme-light .send-btn {
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      color: #07220f;
+    }
+
+    .theme-light .option-chip {
+      background: #f1fff4;
+      color: var(--text-main);
+      border-color: rgba(110, 200, 140, 0.5);
+    }
+
+    .theme-light .info-card {
+      background: #fbfff9;
+      border-color: rgba(120, 200, 140, 0.18);
+      color: var(--text-main);
+    }
+
+    .theme-light .error-banner {
+      background: rgba(244, 67, 54, 0.08);
+      color: #6b0b06;
+      border-color: rgba(244,67,54,0.18);
+    }
+
+    .theme-light .mountain-shadow,
+    .theme-light .terrain-layer {
+      opacity: 0.35;
+      mix-blend-mode: normal;
+    }
+
+    /* Make system hint pill and right-panel tags fully light with dark text */
+    .theme-light .system-line span {
+      background: #ffffff;
+      color: var(--text-main);
+      border: 1px solid rgba(120,200,140,0.15);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .theme-light .tag {
+      background: #f6fff6;
+      color: var(--text-main);
+      border-color: rgba(120,200,140,0.35);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #4caf50;
+      box-shadow: 0 0 6px rgba(76, 175, 80, 0.9);
+    }
+
+    .chat-area {
+      flex: 1 1 auto;
+      padding: 14px 12px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow-y: auto;
+      /* ensure the chat area can shrink inside the fixed container and scroll */
+      min-height: 0;
+      background:
+        radial-gradient(circle at top left, rgba(76, 175, 80, 0.12), transparent 60%),
+        radial-gradient(circle at bottom right, rgba(38, 166, 154, 0.12), transparent 55%);
+    }
+
+    .chat-area::-webkit-scrollbar {
+      width: 6px;
+    }
+    .chat-area::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+    }
+
+    .message-row {
+      display: flex;
+      margin-bottom: 4px;
+    }
+
+    .message-row.bot {
+      justify-content: flex-start;
+    }
+
+    .message-row.user {
+      justify-content: flex-end;
+    }
+
+    .bubble {
+      max-width: 76%;
+      padding: 10px 12px;
+      border-radius: 14px;
+      font-size: 14px;
+      line-height: 1.4;
+      border: 1px solid transparent;
+      position: relative;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+
+    .bubble.bot {
+      background: var(--bot-bubble);
+      border-color: var(--border-soft);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .bubble.user {
+      background: var(--user-bubble);
+      border-color: rgba(129, 199, 132, 0.4);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    }
+
+    .timestamp {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .input-area {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 8px 10px 10px;
+      background: rgba(7, 23, 16, 0.96);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .text-input {
+      flex: 1;
+      padding: 9px 11px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(9, 30, 20, 0.9);
+      color: var(--text-main);
+      font-size: 14px;
+      outline: none;
+      transition: border 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .text-input::placeholder {
+      color: rgba(200, 230, 201, 0.5);
+    }
+
+    .text-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px rgba(76, 175, 80, 0.35);
+      background: rgba(12, 39, 24, 0.95);
+    }
+
+    .send-btn {
+      padding: 9px 14px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      color: #f1fff2;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 8px 18px rgba(76, 175, 80, 0.4);
+      transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+      flex-shrink: 0;
+    }
+
+    .send-btn:active {
+      transform: translateY(1px) scale(0.99);
+      box-shadow: 0 4px 10px rgba(76, 175, 80, 0.35);
+      filter: brightness(0.96);
+    }
+
+    /* Theme toggle button styles */
+    #themeToggleBtn {
+      background: transparent;
+      border: 1px solid rgba(129,199,132,0.12);
+      color: var(--accent);
+      padding: 6px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #themeToggleBtn[aria-pressed="true"] {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #063b1d;
+      box-shadow: 0 6px 14px rgba(76,175,80,0.12);
+    }
+
+    .send-icon {
+      font-size: 14px;
+    }
+
+    .chips-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 2px;
+    }
+
+    .option-chip {
+      border-radius: 999px;
+      border: 1px solid rgba(129, 199, 132, 0.4);
+      background: rgba(11, 35, 23, 0.95);
+      color: #e8f5e9;
+      font-size: 12px;
+      padding: 6px 10px;
+      cursor: pointer;
+      transition: background 0.12s ease, transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .option-chip::before {
+      content: "●";
+      font-size: 9px;
+      color: var(--accent);
+    }
+
+    .option-chip:hover {
+      background: rgba(46, 125, 50, 0.9);
+      border-color: rgba(200, 230, 201, 0.8);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(76, 175, 80, 0.45);
+    }
+
+    .option-chip:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    .system-line {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+      margin: 4px 0 2px;
+    }
+
+    .system-line span {
+      background: rgba(10, 30, 20, 0.9);
+      padding: 2px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(129, 199, 132, 0.35);
+    }
+
+    .error-banner {
+      font-size: 12px;
+      color: #ffebee;
+      background: rgba(244, 67, 54, 0.12);
+      border: 1px solid rgba(244, 67, 54, 0.4);
+      border-radius: 10px;
+      padding: 6px 8px;
+      display: none;
+      margin-bottom: 2px;
+    }
+
+    .error-banner.visible {
+      display: block;
+    }
+
+    /* Right panel content */
+
+    .panel-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .panel-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .info-card {
+      background: rgba(9, 26, 17, 0.96);
+      border-radius: 16px;
+      padding: 12px 12px;
+      border: 1px solid rgba(129, 199, 132, 0.18);
+      margin-bottom: 12px;
+    }
+
+    .info-card h3 {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .info-card p {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(120, 190, 130, 0.6);
+      color: #c8e6c9;
+      background: rgba(46, 125, 50, 0.15);
+    }
+
+    .footnote {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    .mountain-shadow {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 10% 80%, rgba(0, 0, 0, 0.6), transparent 60%),
+        radial-gradient(circle at 90% 20%, rgba(0, 0, 0, 0.4), transparent 55%);
+      mix-blend-mode: multiply;
+      opacity: 0.9;
+    }
+
+    .terrain-layer {
+      position: absolute;
+      inset: auto 0 0;
+      height: 120px;
+      background:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%),
+        radial-gradient(circle at 10% 100%, rgba(56, 142, 60, 0.8), transparent 60%),
+        radial-gradient(circle at 70% 110%, rgba(27, 94, 32, 0.8), transparent 60%);
+      pointer-events: none;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="app-shell">
+      <!-- LEFT SIDE: CHAT -->
+      <div class="left-panel">
+        <header class="header">
+          <div class="logo-circle" aria-hidden="true">
+            <span>🌲</span>
+          </div>
+          <div class="header-text">
+            <div class="header-title">EcoGuía 24/7</div>
+            <div class="header-subtitle">Asistente virtual para turismo natural en Argentina</div>
+          </div>
+          <div class="status-pill">
+            <div class="status-dot"></div>
+            En línea
+          </div>
+          <button id="themeToggleBtn" title="Activar modo claro" aria-pressed="false" style="margin-left:10px;">
+            <span style="font-weight:600; color:var(--accent);">Modo claro</span>
+          </button>
+        </header>
+
+        <div id="chatArea" class="chat-area"></div>
+
+        <div class="input-area">
+          <div id="errorBanner" class="error-banner"></div>
+          <div class="system-line">
+            <span id="systemHint">Seleccioná una opción o escribí tu consulta.</span>
+          </div>
+          <div class="input-row">
+            <input
+              id="textInput"
+              class="text-input"
+              type="text"
+              placeholder="Escribí tu mensaje cuando el bot pida respuesta libre..."
+              autocomplete="off"
+            />
+            <button id="sendBtn" class="send-btn">
+              <span>Enviar</span>
+              <span class="send-icon">➤</span>
+            </button>
+          </div>
+          <div id="chipsRow" class="chips-row"></div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE: CONTEXTO NATURAL -->
+      <aside class="right-panel">
+        <div>
+          <h2 class="panel-title">Guía de parques naturales</h2>
+          <p class="panel-subtitle">
+            EcoGuía 24/7 te ayuda con horarios, actividades sostenibles, normas ecológicas y reportes ambientales
+            en parques nacionales, reservas y áreas protegidas.
+          </p>
+
+          <div class="info-card">
+            <h3>¿Qué puedo preguntarle?</h3>
+            <p>Algunas ideas para empezar la conversación:</p>
+            <ul style="font-size: 12px; color: var(--text-muted); padding-left: 18px; margin-top: 4px;">
+              <li>Horarios y tarifas de un parque.</li>
+              <li>Senderos recomendados según dificultad.</li>
+              <li>Normas ambientales (fauna, fuego, residuos).</li>
+              <li>Cómo reportar basura, animales heridos o humo.</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>Enfoque sostenible</h3>
+            <p>
+              El objetivo del asistente es facilitar tu visita y, al mismo tiempo, cuidar el ecosistema:
+            </p>
+            <div class="tag-row">
+              <span class="tag">Turismo responsable</span>
+              <span class="tag">Educación ambiental</span>
+              <span class="tag">Accesibilidad 24/7</span>
+              <span class="tag">Reporte de incidentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="footnote">
+            Consejo: probá opciones como <strong>“Información general de parques”</strong> o
+            <strong>“Reportar incidente o alerta ambiental”</strong> para ver el flujo completo.
+          </p>
+        </div>
+
+        <div class="mountain-shadow"></div>
+        <div class="terrain-layer"></div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+  // =======================
+  // Configuración n8n
+  // =======================
+  // Poné acá la URL pública de tu webhook de n8n.
+  // Ejemplo típico: "https://tu-servidor-n8n.com/webhook/343939c7-29e8-48c3-b612-e6415566b839"
+  // El ID sale del Chat Trigger "When chat message received" (webhookId en el JSON).
+  const N8N_CHAT_URL = "https://frannguti.app.n8n.cloud/webhook/343939c7-29e8-48c3-b612-e6415566b839/chat";
+
+  // Un sessionId para que n8n pueda mantener el contexto entre mensajes
+  let sessionId;
+  try {
+    const stored = localStorage.getItem("eco_guia_session_id");
+    if (stored) {
+      sessionId = stored;
+    } else {
+      sessionId = crypto.randomUUID();
+      localStorage.setItem("eco_guia_session_id", sessionId);
+    }
+  } catch (e) {
+    // fallback si localStorage no está disponible
+    sessionId = "eco-guia-" + Date.now();
+  }
+
+  // Estado mínimo del chat (no usamos ya nodos/árbol propios)
+  let conversationEnded = false;
+
+  const chatArea   = document.getElementById("chatArea");
+  const textInput  = document.getElementById("textInput");
+  const sendBtn    = document.getElementById("sendBtn");
+  const chipsRow   = document.getElementById("chipsRow");
+  const systemHint = document.getElementById("systemHint");
+  const errorBanner = document.getElementById("errorBanner");
+
+  function nowTime() {
+    const d = new Date();
+    return d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" });
+  }
+
+  function appendMessage(text, who = "bot") {
+    const row = document.createElement("div");
+    row.className = `message-row ${who}`;
+
+    const bubble = document.createElement("div");
+    bubble.className = `bubble ${who}`;
+    bubble.textContent = text;
+
+    const time = document.createElement("div");
+    time.className = "timestamp";
+    time.textContent = nowTime();
+
+    bubble.appendChild(document.createElement("br"));
+    bubble.appendChild(time);
+    row.appendChild(bubble);
+
+    chatArea.appendChild(row);
+    chatArea.scrollTop = chatArea.scrollHeight;
+  }
+
+  function appendSystemLine(text) {
+    const line = document.createElement("div");
+    line.className = "system-line";
+    const span = document.createElement("span");
+    span.textContent = text;
+    line.appendChild(span);
+    chatArea.appendChild(line);
+    chatArea.scrollTop = chatArea.scrollHeight;
+  }
+
+  function setError(msg) {
+    if (!msg) {
+      errorBanner.classList.remove("visible");
+      errorBanner.textContent = "";
+    } else {
+      errorBanner.classList.add("visible");
+      errorBanner.textContent = msg;
+    }
+  }
+
+  function setLoading(state) {
+    sendBtn.disabled = state;
+    textInput.disabled = state || conversationEnded;
+    sendBtn.style.opacity = state ? "0.7" : "1";
+  }
+
+  // =======================
+  // Opciones rápidas (chips)
+  // =======================
+  // Estas etiquetas se mandan tal cual al workflow de n8n, para que el AI Agent
+  // siga el árbol de conversación que definiste allí.
+  const QUICK_OPTIONS = [
+    { label: "Información de parques" },
+    { label: "Actividades sostenibles" },
+    { label: "Normas y seguridad" },
+    { label: "Reportar incidente o alerta ambiental" },
+    { label: "Soporte de EcoGuía" },
+  ];
+
+  function clearOptions() {
+    chipsRow.innerHTML = "";
+  }
+
+  function showOptions(options) {
+    clearOptions();
+    if (!options || !options.length) return;
+    options.forEach((opt) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "option-chip";
+      chip.textContent = opt.label;
+      chip.addEventListener("click", () => handleOptionClick(opt.label));
+      chipsRow.appendChild(chip);
+    });
+  }
+
+  function extractBotText(data) {
+    if (!data) return "No recibí respuesta del asistente.";
+
+    // Si es texto plano
+    if (typeof data === "string") return data;
+
+    // Algunos formatos típicos de n8n / AI Agent
+    if (data.text) return data.text;
+    if (data.output) return data.output;
+    if (data.result) return data.result;
+
+    if (Array.isArray(data) && data.length) {
+      return data[0].text || data[0].output || JSON.stringify(data[0]);
+    }
+
+    if (data.data) {
+      if (typeof data.data === "string") return data.data;
+      if (data.data.text) return data.data.text;
+      if (data.data.output) return data.data.output;
+    }
+
+    // Último recurso: mostrar el JSON serializado
+    return JSON.stringify(data);
+  }
+
+  async function sendToN8N(userText) {
+    setError("");
+    setLoading(true);
+    try {
+      const res = await fetch(N8N_CHAT_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          chatInput: userText,
+          sessionId: sessionId,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("HTTP " + res.status);
+      }
+
+      const data = await res.json();
+      const botText = extractBotText(data);
+      appendMessage(botText, "bot");
+    } catch (err) {
+      console.error(err);
+      setError(
+        "Hubo un problema al conectar con EcoGuía (n8n). Revisá la URL del webhook o si el workflow está activo."
+      );
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function handleSend() {
+    if (conversationEnded) return;
+    const text = textInput.value.trim();
+    if (!text) return;
+
+    appendMessage(text, "user");
+    textInput.value = "";
+    await sendToN8N(text);
+  }
+
+  async function handleOptionClick(label) {
+    if (conversationEnded) return;
+    appendMessage(label, "user");
+    await sendToN8N(label);
+  }
+
+  sendBtn.addEventListener("click", handleSend);
+  textInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSend();
+    }
+  });
+
+  // =======================
+  // Theme (modo claro) toggle
+  // =======================
+  const themeToggleBtn = document.getElementById("themeToggleBtn");
+  function setLightMode(enabled) {
+    const root = document.documentElement;
+    if (enabled) {
+      root.classList.add("theme-light");
+      themeToggleBtn.setAttribute("aria-pressed", "true");
+      themeToggleBtn.title = "Desactivar modo claro";
+    } else {
+      root.classList.remove("theme-light");
+      themeToggleBtn.setAttribute("aria-pressed", "false");
+      themeToggleBtn.title = "Activar modo claro";
+    }
+    try {
+      localStorage.setItem("eco_guia_light_mode", enabled ? "1" : "0");
+    } catch (e) {}
+  }
+
+  themeToggleBtn.addEventListener("click", () => {
+    const enabled = !document.documentElement.classList.contains("theme-light");
+    setLightMode(enabled);
+  });
+
+  // initialize theme from localStorage
+  try {
+    const stored = localStorage.getItem("eco_guia_light_mode");
+    if (stored === "1") setLightMode(true);
+  } catch (e) {}
+
+  // =======================
+  // Inicializar UI
+  // =======================
+  window.addEventListener("load", () => {
+    appendSystemLine("Bienvenido a EcoGuía 24/7. Escribí tu consulta o elegí una opción para empezar.");
+    showOptions(QUICK_OPTIONS);
+    systemHint.textContent = "Seleccioná una opción o escribí tu consulta.";
+  });
+</script>
+</body>
+</html>
